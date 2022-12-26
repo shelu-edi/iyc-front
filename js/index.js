@@ -1,3 +1,16 @@
+// Navbar
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.navbar__menu');
+const navLogo = document.querySelector('#navbar__logo')
+
+// Display mobile menu
+const mobileMenu = () => {
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('active');
+}
+
+menu.addEventListener('click', mobileMenu);
+
 const dropdowns = document.querySelectorAll('.dropdown');
 
 dropdowns.forEach(dropdown => {
@@ -26,3 +39,23 @@ dropdowns.forEach(dropdown => {
         });
     });
 });
+
+
+// Carousel
+$('input').on('change', function() {
+    $('body').toggleClass('blue');
+});
+
+// Scroll
+$(document).ready(function() {
+    $(window).on("scroll", function() {
+        var scroll_pos = $(window).scrollTop();
+        var element_pos = $(".tag").offset().top;
+
+        if (scroll_pos >= element_pos) {
+            $(".tag").addClass("visible");
+        }
+    });
+});
+
+

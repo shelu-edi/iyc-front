@@ -14,6 +14,15 @@
 
     <!-- NavBar -->
     <div class="nav__container">
+        <div class="mobile__menu" id="mobile-menu">
+            <div class="mobile__menu__bgr">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <img src="../img/iyc-logo-1.png" alt="">
+            <i class="fa fa-search" ></i>
+        </div>
         <div class="nav__wrapper">
             <a class="nav__link" href="#">
                 Who We Are
@@ -46,22 +55,22 @@
     <div class="top__div">
         <video autoplay muted loop id="myVideo" class="hero__video">
             <source src="../vid/human-rights-day-hero.mp4 (Original).mp4" type="video/mp4">
-            <div class="hero__div">
-                <div class="hero__top">
-                    International Youth Council
-                </div>
-                <div class="hero__desc">
-                    Progress By Inclusive and Sustainable Youth Development
-                </div>
-                <div class="read__more">
-                    <a href="#"> Read More </a>
-                </div>
-            </div>
         </video>
+        <div class="hero__div">
+            <div class="hero__top">
+                International Youth Council
+            </div>
+            <div class="hero__desc">
+                Progress By Inclusive and Sustainable Youth Development
+            </div>
+            <div class="read__more">
+                <a href="#"> Read More </a>
+            </div>
+        </div>
     </div>
 
     <!-- Featured -->
-    <div class="feature__div">
+    <div class="tag feature__div">
         <div class="feature__div__1">
             Featured
         </div>
@@ -81,12 +90,29 @@
     </div>
 
     <!-- carousel -->
-    <div class="sdg__carousel__wrapper">
-        SDG Carousel Wrapper
+    <div class="tag sdg__carousel__wrapper">
+<!--        SDG Carousel Wrapper-->
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <input type="radio" name="slider" id="item-4">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="../img/sdg/sdg-8.jpg" alt="song">
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                    <img src="../img/sdg/sdg-9.jpg" alt="song">
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                    <img src="../img/sdg/sdg-10.jpg" alt="song">
+                </label>
+            </div>
+        </div>
     </div>
 
     <!-- Stories -->
-    <div class="stories__wrapper">
+    <div class="tag stories__wrapper">
         <div class="story__card">
             <div class="story__head">
                 Stories
@@ -201,7 +227,7 @@
     </div>
 
     <!-- Vision & Mission -->
-    <div class="vm__wrapper">
+    <div class="tag vm__wrapper">
         <div class="vision__container">
             <div class="vision__head">
                 Vision
@@ -224,7 +250,7 @@
     </div>
 
     <!-- Focus -->
-    <div class="focus__wrapper">
+    <div class="tag focus__wrapper">
         <div class="focus__wrap__1">
             Our Focus
         </div>
@@ -337,8 +363,8 @@
         
     </div>
 
-    <!-- Partneships -->
-    <div class="partnership__wrapper">
+    <!-- Partnerships -->
+    <div class="tag partnership__wrapper">
         <div class="partnership__head">
             Trusted Partnerships
         </div>
@@ -353,75 +379,75 @@
     </div>
 
     <!-- Projects -->
-    <div class="projects__wrapper">
+    <div class="tag projects__wrapper">
         <div class="projects__head">Projects</div>
         <div class="project__filter__wrapper">
             <div class="project__filters">
-                <div class="project__dropdown">
-                    <div class="drop__head">Country</div>
-                    <div class="dropdown">
-                        <div class="select">
-                            <span class="selected"> -Any-</span>
-                            <div class="caret"></div>
-                        </div>
-                        <ul class="menu">
-                            <!-- Use A plugin for this  -->
-                            <li class="menu__item  active"> -Any- </li>
-                            <li class="menu__item" > Afghanistan </li>
-                            <li class="menu__item" > Albania </li>
-                            <li class="menu__item" > Algeria </li>
-                            <li class="menu__item" > Andorra </li>
-                            <li class="menu__item" > Angola </li>
-                            <li class="menu__item" > Antigua & Barbuda </li>
-                            <li class="menu__item" > Argentina </li>
-                            <li class="menu__item" > Armenia </li>
-                            <li class="menu__item" > Australia </li>
-                            <li class="menu__item" > Azerbaijan </li>
-                        </ul>
-                    </div>
-                    <div class="drop__head">SDGs</div>
-                    <div class="dropdown">
-                        <div class="select">
-                            <span class="selected">-Any-</span>
-                            <div class="caret"></div>
-                        </div>
-                        <ul class="menu">
-                            <li class="menu__item  active"> -Any- </li>
-                            <li class="menu__item" > SDG 01- No Poverty</li>
-                            <li class="menu__item" > SDG 02- Zero hunger</li>
-                            <li class="menu__item" > SDG 03- Good Health and Well-Being</li>
-                            <li class="menu__item" > SDG 04- Quality Education</li>
-                            <li class="menu__item" > SDG 05- Gender Equality</li>
-                            <li class="menu__item" > SDG 06- Clean Water & Sanitation</li>
-                            <li class="menu__item" > SDG 07- Affordable & Clean Energy</li>
-                            <li class="menu__item" > SDG 08- Decent Work & Economic Growth</li>
-                            <li class="menu__item" > SDG 09- Industry, Innovation & Infrastructure</li>
-                            <li class="menu__item" > SDG 10- Reduce Inequalities</li>
-                            <li class="menu__item" > SDG 11- Sustainable Cities & Communities</li>
-                            <li class="menu__item" > SDG 12- Responsible Consumption & Production</li>
-                            <li class="menu__item" > SDG 13- Climate Action</li>
-                            <li class="menu__item" > SDG 14- Life Below Water</li>
-                            <li class="menu__item" > SDG 15- Life On Land</li>
-                            <li class="menu__item" > SDG 16- Peace, Justice & Strong Institutions</li>
-                            <li class="menu__item" > SDG 17- Partnership for the Goals</li>
-                        </ul>
-                    </div>
-                    <div class="drop__head">Year</div>
-                    <div class="dropdown">
-                        <div class="select">
-                            <span class="selected">-Any-</span>
-                            <div class="caret"></div>
-                        </div>
-                        <ul class="menu">
-                            <li class="menu__item  active"> -Any- </li>
-                            <li class="menu__item" > 2016 </li>
-                            <li class="menu__item" > 2017 </li>
-                            <li class="menu__item" > 2018 </li>
-                            <li class="menu__item" > 2019 </li>
-                            <li class="menu__item" > 2020 </li>
-                            <li class="menu__item" > 2021 </li>
-                        </ul>
-                    </div>
+<!--                <div class="project__dropdown">-->
+<!--                    <div class="drop__head">Country</div>-->
+<!--                    <div class="dropdown">-->
+<!--                        <div class="select">-->
+<!--                            <span class="selected"> -Any-</span>-->
+<!--                            <div class="caret"></div>-->
+<!--                        </div>-->
+<!--                        <ul class="menu">-->
+<!--                            &lt;!&ndash; Use A plugin for this  &ndash;&gt;-->
+<!--                            <li class="menu__item  active"> -Any- </li>-->
+<!--                            <li class="menu__item" > Afghanistan </li>-->
+<!--                            <li class="menu__item" > Albania </li>-->
+<!--                            <li class="menu__item" > Algeria </li>-->
+<!--                            <li class="menu__item" > Andorra </li>-->
+<!--                            <li class="menu__item" > Angola </li>-->
+<!--                            <li class="menu__item" > Antigua & Barbuda </li>-->
+<!--                            <li class="menu__item" > Argentina </li>-->
+<!--                            <li class="menu__item" > Armenia </li>-->
+<!--                            <li class="menu__item" > Australia </li>-->
+<!--                            <li class="menu__item" > Azerbaijan </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                    <div class="drop__head">SDGs</div>-->
+<!--                    <div class="dropdown">-->
+<!--                        <div class="select">-->
+<!--                            <span class="selected">-Any-</span>-->
+<!--                            <div class="caret"></div>-->
+<!--                        </div>-->
+<!--                        <ul class="menu">-->
+<!--                            <li class="menu__item  active"> -Any- </li>-->
+<!--                            <li class="menu__item" > SDG 01- No Poverty</li>-->
+<!--                            <li class="menu__item" > SDG 02- Zero hunger</li>-->
+<!--                            <li class="menu__item" > SDG 03- Good Health and Well-Being</li>-->
+<!--                            <li class="menu__item" > SDG 04- Quality Education</li>-->
+<!--                            <li class="menu__item" > SDG 05- Gender Equality</li>-->
+<!--                            <li class="menu__item" > SDG 06- Clean Water & Sanitation</li>-->
+<!--                            <li class="menu__item" > SDG 07- Affordable & Clean Energy</li>-->
+<!--                            <li class="menu__item" > SDG 08- Decent Work & Economic Growth</li>-->
+<!--                            <li class="menu__item" > SDG 09- Industry, Innovation & Infrastructure</li>-->
+<!--                            <li class="menu__item" > SDG 10- Reduce Inequalities</li>-->
+<!--                            <li class="menu__item" > SDG 11- Sustainable Cities & Communities</li>-->
+<!--                            <li class="menu__item" > SDG 12- Responsible Consumption & Production</li>-->
+<!--                            <li class="menu__item" > SDG 13- Climate Action</li>-->
+<!--                            <li class="menu__item" > SDG 14- Life Below Water</li>-->
+<!--                            <li class="menu__item" > SDG 15- Life On Land</li>-->
+<!--                            <li class="menu__item" > SDG 16- Peace, Justice & Strong Institutions</li>-->
+<!--                            <li class="menu__item" > SDG 17- Partnership for the Goals</li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                    <div class="drop__head">Year</div>-->
+<!--                    <div class="dropdown">-->
+<!--                        <div class="select">-->
+<!--                            <span class="selected">-Any-</span>-->
+<!--                            <div class="caret"></div>-->
+<!--                        </div>-->
+<!--                        <ul class="menu">-->
+<!--                            <li class="menu__item  active"> -Any- </li>-->
+<!--                            <li class="menu__item" > 2016 </li>-->
+<!--                            <li class="menu__item" > 2017 </li>-->
+<!--                            <li class="menu__item" > 2018 </li>-->
+<!--                            <li class="menu__item" > 2019 </li>-->
+<!--                            <li class="menu__item" > 2020 </li>-->
+<!--                            <li class="menu__item" > 2021 </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -490,47 +516,25 @@
                 </div>
             </div>
             <div class="pagination__wrapper">
-                <div class="pagination__card">
-                    1
+                <div id="app" class="pagination__container">
+                    <ul class="page">
+                        <li class="page__btn"><</li>
+                        <li class="page__numbers"> 1</li>
+                        <li class="page__numbers active">2</li>
+                        <li class="page__numbers">3</li>
+                        <li class="page__numbers">4</li>
+                        <li class="page__numbers">5</li>
+                        <li class="page__numbers">6</li>
+                        <li class="page__dots">...</li>
+                        <li class="page__numbers"> 10</li>
+                        <li class="page__btn">></li>
+                    </ul>
                 </div>
-                <div class="pagination__card">
-                    2
-                </div>
-                <div class="pagination__card">
-                    3
-                </div>
-                <div class="pagination__card">
-                    4
-                </div>
-                <div class="pagination__card">
-                    5
-                </div>
-                <div class="pagination__card">
-                    6
-                </div>
-                <div class="pagination__card">
-                    7
-                </div>
-                <div class="pagination__card">
-                    8
-                </div>
-                <div class="pagination__card">
-                    9
-                </div>
-                <div class="pagination__card">
-                    10
-                </div>
-                <div class="pagination__card">
-                    Next
-                </div>
-                <div class="pagination__card">
-                    Last
-                </div>
-            </div>
         </div>
 
     </div>
 
+    <!-- Footer -->
     <div class="footer__container">
         <div class="footer__wrapper">
             <div class="footer__top">
@@ -611,5 +615,6 @@
 
     <script src="../js/index.js"></script>
     <script src="https://kit.fontawesome.com/86f0938acd.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
