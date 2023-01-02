@@ -13,6 +13,8 @@
     }
 }
 
+/* Hero */
+
 .hero__div {
     display: flex;
 }
@@ -21,7 +23,7 @@
     font-size: 3rem;
     text-align: center;
     margin-top: 2rem;
-    color: #0351b1;
+    color: #1964b7;
     animation: fadeIn 1s;
 }
 
@@ -29,6 +31,7 @@
     display: flex;
     flex-direction: row;
     margin: 1rem 0;
+    background: #1964b7;
 }
 
 .hero__info__container img {
@@ -37,10 +40,166 @@
 }
 
 .hero__info__container p {
-    width: 50%;
     text-align: justify;
     padding: 2rem;
     font-size: 1.2rem;
     margin-top: 3rem;
     animation: fadeIn 2s;
+    color: #fff;
 }
+
+/* Mid Container  */
+.mid__container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.vm__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.vision__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #1964b7;
+    color: #fff;
+    padding: 2rem;
+    animation: fadeIn 2.5s;
+}
+
+.vision__head {
+    font-size: 1.5rem;
+    animation: fadeIn 3s;
+}
+
+.vision__wrapper p {
+    font-size: 1rem;
+    animation: fadeIn 3.5s;
+}
+
+.mission__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /*background: #0351b1;*/
+    color: #1964b7;
+    padding: 2rem;
+    animation: fadeIn 4s;
+}
+
+.mission__wrapper {
+    font-size: 1.5rem;
+    animation: fadeIn 4.5s;
+}
+
+.mission__wrapper p {
+    font-size: 1rem;
+    animation: fadeIn 5s;
+}
+
+.charter__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: #1964b7;
+    color: #fff;
+    animation: fadeIn 5.5s;
+}
+
+.charter__wrapper {
+    font-size: 1.5rem;
+    animation: fadeIn 6s;
+}
+
+.charter__wrapper p {
+    font-size: 1rem;
+    animation: fadeIn 6.5s;
+}
+
+/* History */
+.history__container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.history__head {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: #1964b7;
+}
+
+.history__wrapper {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.history__1 {
+    background: #1964b7;
+    color: #fff;
+    height: 100%;
+    padding: 1rem;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.history__2 {
+    color: #1964b7;
+    height: 100%;
+    padding: 1rem;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.history__3 {
+    background: #1964b7;
+    color: #fff;
+    height: 100%;
+    padding: 1rem;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.history__4 {
+    color: #1964b7;
+    height: 100%;
+    padding: 1rem;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* MDG */
+.mdg__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mdg__wrapper p {
+    font-size: 1.5rem;
+    color: #1964b7;
+}
+
+.mdg__list {
+    list-style: none;
+}
+
+.mdg__item {
+    font-size: 1.2rem;
+    padding: .5rem 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 960px) {
+
+}
+
+
+
+
+
+
