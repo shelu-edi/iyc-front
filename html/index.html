@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="../img/iyc-logo-1.png">
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/index.css">
 
     <title>IYC | International Youth Council </title>
@@ -14,11 +17,25 @@
 
     <!-- NavBar -->
     <div class="nav__container">
-        <div class="mobile__menu" id="mobile-menu">
-            <div class="mobile__menu__bgr">
+        <div class="mobile__menu" >
+            <div class="mobile__menu__bgr" id="mobile-menu">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
+            </div>
+            <div class="mobile__menu__dropdown">
+                <div class="mobile__drop__link__wrapper">
+                    <div  class="mobile__drop__link"> Who We Are <i class="fa fa-caret-down"></i></div>
+                    <div id="who-we-are-mobile">
+                        <a href="brief.html"> IYC in Brief </a>
+                        <a href="brief.html"> IYC Worldwide </a>
+                        <a href="brief.html"> IYC Country Programme </a>
+                        <a href="brief.html" > Accreditation and Affiliations </a>
+                        <a href="brief.html"> 2030 Agenda & SDGs </a>
+                    </div>
+                </div>
+                <a href="" class="mobile__drop__link"> Our Initiatives </a>
+                <a href="" class="mobile__drop__link"> Our Initiatives </a>
             </div>
             <img src="../img/iyc-logo-1.png" alt="">
             <i class="fa fa-search" ></i>
@@ -30,11 +47,11 @@
             </a>
                 <div class="nav__dropdown">
                     <div class="nav__dropdown__links">
-                        <a href="#" onmouseover="Brief()"> IYC in Brief </a>
-                        <a href="#"  onmouseover="Worldwide()"> IYC Worldwide </a>
-                        <a href="#" onmouseover="Country()"> IYC Country Programme </a>
-                        <a href="#" onmouseover="Affiliations()"> Accreditation and Affiliations </a>
-                        <a href="#" onmouseover="Agenda()"> 2030 Agenda & SDGs </a>
+                        <a href="brief.html" onmouseover="Brief()"> IYC in Brief </a>
+                        <a href="brief.html" onmouseover="Worldwide()"> IYC Worldwide </a>
+                        <a href="brief.html" onmouseover="Country()"> IYC Country Programme </a>
+                        <a href="brief.html" onmouseover="Affiliations()"> Accreditation and Affiliations </a>
+                        <a href="brief.html" onmouseover="Agenda()"> 2030 Agenda & SDGs </a>
                     </div>
                     <div class="nav__dropdown__info">
                         <div class="nav__dropdown__info__desc" id="iyc-brief">
@@ -124,26 +141,26 @@
     </div>
 
     <!-- carousel -->
-    <div class="tag sdg__carousel__wrapper">
-<!--        SDG Carousel Wrapper-->
-        <div class="container">
-            <input type="radio" name="slider" id="item-1" checked>
-            <input type="radio" name="slider" id="item-2">
-            <input type="radio" name="slider" id="item-3">
-            <input type="radio" name="slider" id="item-4">
-            <div class="cards">
-                <label class="card" for="item-1" id="song-1">
-                    <img src="../img/sdg/sdg-8.jpg" alt="song">
-                </label>
-                <label class="card" for="item-2" id="song-2">
-                    <img src="../img/sdg/sdg-9.jpg" alt="song">
-                </label>
-                <label class="card" for="item-3" id="song-3">
-                    <img src="../img/sdg/sdg-10.jpg" alt="song">
-                </label>
-            </div>
-        </div>
-    </div>
+<!--    <div class="tag sdg__carousel__wrapper">-->
+<!--&lt;!&ndash;        SDG Carousel Wrapper&ndash;&gt;-->
+<!--        <div class="container">-->
+<!--            <input type="radio" name="slider" id="item-1" checked>-->
+<!--            <input type="radio" name="slider" id="item-2">-->
+<!--            <input type="radio" name="slider" id="item-3">-->
+<!--            <input type="radio" name="slider" id="item-4">-->
+<!--            <div class="cards">-->
+<!--                <label class="card" for="item-1" id="song-1">-->
+<!--                    <img src="../img/sdg/sdg-8.jpg" alt="song">-->
+<!--                </label>-->
+<!--                <label class="card" for="item-2" id="song-2">-->
+<!--                    <img src="../img/sdg/sdg-9.jpg" alt="song">-->
+<!--                </label>-->
+<!--                <label class="card" for="item-3" id="song-3">-->
+<!--                    <img src="../img/sdg/sdg-10.jpg" alt="song">-->
+<!--                </label>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <!-- Stories -->
     <div class="tag stories__wrapper">
@@ -435,37 +452,37 @@
                             <input type="radio" name="item" id="country-item10" title="Azerbaijan ">
                         </summary>
                         <ul class="list">
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item1">
                                     Afghanistan
                                     <span></span>
                                 </label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item2">Albania</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item3">Algeria</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item4">Andorra</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item5">Angola</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item6">Antigua & Barbuda</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item7">Argentina</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item8">Armenia</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item9">Australia</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="country-item10">Azerbaijan </label>
                             </li>
                         </ul>
@@ -495,58 +512,58 @@
                                 <input type="radio" name="item" id="sdg-item17" title="SDG 17- Partnerships for the Goals">
                             </summary>
                             <ul class="list">
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item1">
                                         SDG 1- No Poverty
                                         <span></span>
                                     </label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item2">SDG 2- Zero Hunger</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item3">SDG 3- Good Health and Well-Being</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item4">SDG 4- Quality Education</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item5">SDG 5- Gender Equality</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item6">SDG 6- Clean Water and Sanitation</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item7">SDG 7- Affordable and Clean Energy</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item8">SDG 8- Decent Work and Economic Growth</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item9">SDG 9- Industry, Innovation & Infrastructure</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item10">SDG 10- Reduce Inequalities</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item11">SDG 11- Sustainable Cities and Communities</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item12">SDG 12- Responsible Consumption and Production</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item13">SDG 13- Climate Action</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item14">SDG 14- Life Below Water</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item15">SDG 15- Life On Land</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item16">SDG 16- Peace, Justice and Strong Institutions</label>
                                 </li>
-                                <li>
+                                <li class="list__li">
                                     <label for="sdg-item17">SDG 17- Partnerships for the Goals</label>
                                 </li>
                             </ul>
@@ -564,25 +581,25 @@
                             <input type="radio" name="item" id="year-item6" title="2021">
                         </summary>
                         <ul class="list">
-                            <li>
+                            <li class="list__li">
                                 <label for="year-item1">
                                     2016
                                     <span></span>
                                 </label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="year-item2">2017</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="year-item3">2018</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="year-item4">2019</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="year-item5">2020</label>
                             </li>
-                            <li>
+                            <li class="list__li">
                                 <label for="year-item6">2021</label>
                             </li>
                         </ul>
@@ -654,22 +671,22 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="pagination__wrapper">-->
-<!--                <div id="app" class="pagination__container">-->
-<!--                    <ul class="page">-->
-<!--                        <li class="page__btn"><</li>-->
-<!--                        <li class="page__numbers"> 1</li>-->
-<!--                        <li class="page__numbers active">2</li>-->
-<!--                        <li class="page__numbers">3</li>-->
-<!--                        <li class="page__numbers">4</li>-->
-<!--                        <li class="page__numbers">5</li>-->
-<!--                        <li class="page__numbers">6</li>-->
-<!--                        <li class="page__dots">...</li>-->
-<!--                        <li class="page__numbers"> 10</li>-->
-<!--                        <li class="page__btn">></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="pagination__wrapper">
+                <div id="app" class="pagination__container">
+                    <ul class="page">
+                        <li class="page__btn"><</li>
+                        <li class="page__numbers">1</li>
+                        <li class="page__numbers active">2</li>
+                        <li class="page__numbers">3</li>
+                        <li class="page__numbers">4</li>
+                        <li class="page__numbers">5</li>
+                        <li class="page__numbers">6</li>
+                        <li class="page__dots">...</li>
+                        <li class="page__numbers">10</li>
+                        <li class="page__btn">></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -754,6 +771,9 @@
     </div>
 
     <script src="../js/index.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/footer.js"></script>
+
     <script src="https://kit.fontawesome.com/86f0938acd.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
