@@ -1,0 +1,99 @@
+* {
+  @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Hero */
+
+.hero__div {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.hero__head {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: #1964b7;
+  animation: fadeIn 1s;
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+  /* background: #1964b7; */
+}
+
+.hero__wrapper img {
+  width: 50%;
+  animation: fadeIn 1.5s;
+}
+
+.hero__wrapper p {
+  text-align: justify;
+  padding: 2rem;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  animation: fadeIn 2s;
+  color: #1964b7;
+}
+
+/* Carousel */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+/* Initiative */
+.ini__wrapper {
+  display: flex;
+  margin: 2rem 0;
+}
+
+/* Country */
+.country__wrapper {
+  display: flex;
+  margin: 2rem 0;
+}

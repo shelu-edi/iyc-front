@@ -1,0 +1,76 @@
+* {
+@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Focus container */
+.focus__container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.focus__head {
+    font-size: 2rem;
+    color: #1964b7;
+    text-align: center;
+    margin: 2rem 0;
+    animation: fadeIn 1s;
+}
+
+.focus__wrapper {
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-around;
+}
+
+.focus__wrapper img {
+    width: 40%;
+    border-radius: 1rem;
+    object-fit: cover;
+    animation: fadeIn 1.5s;
+}
+
+.focus__wrapper img:hover {
+    cursor: pointer;
+}
+
+
+.focus__info__div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 30%;
+}
+
+.focus__info__head {
+    font-size: 1.5rem;
+    color: #1964b7;
+    animation: fadeIn 2s;
+}
+
+.focus__info__div p {
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+    animation: fadeIn 2.5s;
+}
+
+#education, #society, #cross-cutting {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#well-being p {
+    font-size: .8rem;
+}

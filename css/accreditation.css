@@ -1,0 +1,25 @@
+* {
+  @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Accreditation */
+.acc__container {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.acc__head {
+  font-size: 2rem;
+  color: #1964b7;
+}
+/* Affiliations */
+.aff__container {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.aff__head {
+  font-size: 2rem;
+  color: #1964b7;
+}
