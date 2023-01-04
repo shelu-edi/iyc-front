@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <link rel="icon" href="../img/iyc-logo-1.png">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/accreditation.css">
@@ -32,7 +34,7 @@
                         <a href="worldwide.html"> IYC Worldwide </a>
                         <a href="country-program.html"> IYC Country Program </a>
                         <a href="brief.html"> Accreditation and Affiliations </a>
-                        <a href="brief.html"> 2030 Agenda & SDGs </a>
+                        <a href="agenda.html"> 2030 Agenda & SDGs </a>
                     </div>
                 </div>
                 <a href="" class="mobile__drop__link"> Our Initiatives </a>
@@ -54,7 +56,7 @@
                         <a href="worldwide.html" onmouseover="Worldwide()"> IYC Worldwide </a>
                         <a href="country-program.html" onmouseover="Country()"> IYC Country Program </a>
                         <a href="brief.html" onmouseover="Affiliations()"> Accreditation and Affiliations </a>
-                        <a href="brief.html" onmouseover="Agenda()"> 2030 Agenda & SDGs </a>
+                        <a href="agenda.html" onmouseover="Agenda()"> 2030 Agenda & SDGs </a>
                     </div>
                     <div class="nav__dropdown__info">
                         <div class="nav__dropdown__info__desc" id="iyc-brief">
@@ -115,12 +117,12 @@
 
     <!-- Accreditation  -->
     <div class="acc__container">
-        <div class="acc__head">Accreditation</div>
+        <div class="acc__head" data-aos="fade-in">Accreditation</div>
     </div>
 
     <!-- Affiliations -->
     <div class="aff__container">
-        <div class="aff__head">Affiliations</div>
+        <div class="aff__head" data-aos="fade-in">Affiliations</div>
     </div>
 
     <!-- Footer -->
@@ -151,8 +153,8 @@
                             <div class="footer__link"><a href="brief.html">IYC In Brief</a></div>
                             <div class="footer__link"><a href="worldwide.html">IYC Worldwide</a></div>
                             <div class="footer__link"><a href="country-program.html">IYC Country Program</a></div>
-                            <div class="footer__link"><a href="#">Accreditation and Affiliations </a></div>
-                            <div class="footer__link"><a href="#">2030 Agenda & SDGs</a> </div>
+                            <div class="footer__link"><a href="accreditation.html">Accreditation and Affiliations </a></div>
+                            <div class="footer__link"><a href="agenda.html">2030 Agenda & SDGs</a> </div>
                         </div>
                     </div>
                     <div class="footer__link__card">
@@ -210,6 +212,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
         integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
+
 </body>
 
 </html>

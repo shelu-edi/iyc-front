@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <link rel="icon" href="../img/iyc-logo-1.png">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/worldwide.css">
@@ -32,7 +34,7 @@
                         <a href="worldwide.html"> IYC Worldwide </a>
                         <a href="country-program.html"> IYC Country Program </a>
                         <a href="accreditation.html"> Accreditation and Affiliations </a>
-                        <a href="brief.html"> 2030 Agenda & SDGs </a>
+                        <a href="agenda.html"> 2030 Agenda & SDGs </a>
                     </div>
                 </div>
                 <a href="" class="mobile__drop__link"> Our Initiatives </a>
@@ -54,7 +56,7 @@
                         <a href="worldwide.html" onmouseover="Worldwide()"> IYC Worldwide </a>
                         <a href="country-program.html" onmouseover="Country()"> IYC Country Program </a>
                         <a href="accreditation.html" onmouseover="Affiliations()"> Accreditation and Affiliations </a>
-                        <a href="brief.html" onmouseover="Agenda()"> 2030 Agenda & SDGs </a>
+                        <a href="agenda.html" onmouseover="Agenda()"> 2030 Agenda & SDGs </a>
                     </div>
                     <div class="nav__dropdown__info">
                         <div class="nav__dropdown__info__desc" id="iyc-brief">
@@ -115,10 +117,10 @@
 
     <!-- Hero -->
     <div class="hero__container">
-        <div class="hero__head"> IYC Worldwide </div>
+        <div class="hero__head"  data-aos="fade-in"> IYC Worldwide </div>
         <div class="hero__wrapper">
-            <img src="../img/crew-place.jpg" alt="hero-img">
-            <p>
+            <img src="../img/crew-place.jpg" alt="hero-img"  data-aos="fade-in">
+            <p  data-aos="fade-in">
                 The International Youth Council has been able to effectively convey and distribute its services to UN member countries
                 in multiple continents all over the world through the initiation of IYC chapters around the worldwide.​
                 
@@ -139,7 +141,7 @@
     </div>
 
     <!-- Carousel -->
-    <div class="slider">
+    <div class="slider"  data-aos="fade-in">
         <div class="slide-track">
             <div class="slide">
                 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
@@ -188,16 +190,16 @@
 
     <!-- Initiative -->
     <div class="ini__wrapper">
-        <img src="../img/crew-place.jpg" alt="initative-img">
-        <div class="ini__info">
+        <img src="../img/crew-place.jpg" alt="initative-img"  data-aos="fade-in">
+        <div class="ini__info"  data-aos="fade-in">
             Add Some Stuff -> IYC Initiatives
         </div>
     </div>
 
     <!-- Country -->
     <div class="country__wrapper">
-        <img src="../img/crew-place.jpg" alt="country-img">
-        <div class="ini__info">
+        <img src="../img/crew-place.jpg" alt="country-img"  data-aos="fade-in">
+        <div class="ini__info"  data-aos="fade-in">
             Add Some Stuff -> IYC Country
         </div>
     </div>
@@ -231,7 +233,7 @@
                             <div class="footer__link"><a href="worldwide.html">IYC Worldwide</a></div>
                             <div class="footer__link"><a href="country-program.html">IYC Country Program</a></div>
                             <div class="footer__link"><a href="accreditation.html">Accreditation and Affiliations </a></div>
-                            <div class="footer__link"><a href="#">2030 Agenda & SDGs</a> </div>
+                            <div class="footer__link"><a href="agenda.html">2030 Agenda & SDGs</a> </div>
                         </div>
                     </div>
                     <div class="footer__link__card">
@@ -289,6 +291,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
         integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
 </body>
 
 </html>
