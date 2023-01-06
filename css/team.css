@@ -2,3 +2,34 @@
 @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
     font-family: "Trebuchet MS", sans-serif;
 }
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Hero */
+.hero__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__head {
+    text-align: center;
+    font-size: 2rem;
+    color: #1964b7;
+    margin: 2rem 0;
+}
+
+.hero__wrapper {
+    display: flex;
+}
+
+.hero__wrapper img {
+    width: 40%;
+}
