@@ -20,6 +20,7 @@
 }
 
 .hero__head {
+    display: none;
     font-size: 3rem;
     text-align: center;
     margin-top: 2rem;
@@ -30,22 +31,27 @@
 .hero__info__container {
     display: flex;
     flex-direction: row;
-    margin: 1rem 0;
-    background: #1964b7;
+    margin: 0 0 1rem 0;
+    height: 500px;
+    text-align: center;
+    background: url("../img/crew-place-2.jpg") no-repeat fixed;
 }
 
-.hero__info__container img {
-    width: 50%;
-    animation: fadeIn 1.5s;
-}
+/*.hero__info__container img {*/
+/*    width: 50%;*/
+/*    animation: fadeIn 1.5s;*/
+/*}*/
 
 .hero__info__container p {
+    background: rgba(25, 100, 183, .2);
     text-align: justify;
     padding: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 3rem;
     animation: fadeIn 2s;
     color: #fff;
+    width: 100%;
+    align-self: center;
 }
 
 /* Mid Container  */

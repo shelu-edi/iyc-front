@@ -260,7 +260,7 @@
     width: 48.5%;
     height: 400px;
     /*background:rgba(204, 51, 51, 1) ;*/
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: none;
     text-align: center;
     z-index: 20;
@@ -268,16 +268,28 @@
     margin: auto;
 }
 
+.sdg__details img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .sdg__details p {
-    color: #1964b7;
+    color: #fff;
+    position: absolute;
+    font-size: 1.5rem;
+    text-align: justify;
+    align-self: center;
+    margin: 0 0 0 10px;
+    width: 98%;
 }
 
 #sdg-poverty-details p {
-    padding-top: 3rem;
+    /*padding-top: 3rem;*/
 }
 
 #sdg-poverty-details {
-    background: url("../img/sdg/poverty.jpg") no-repeat fixed content-box;
+    /*background: url("../img/sdg/poverty.jpg") no-repeat content-box;*/
 }
 
 
