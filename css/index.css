@@ -318,8 +318,18 @@ img {
 }
 
 .wrap__2__empty {
+  display: flex;
+  align-self: center;
   height: 300px;
+  align-items: center;
+  width: 100%;
 }
+
+.wrap__2__empty img {
+  width: 100%;
+  margin: 1rem;
+}
+
 
 .wrap__head {
   font-size: 24px;
