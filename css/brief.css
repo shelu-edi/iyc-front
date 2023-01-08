@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: row;
     margin: 0 0 1rem 0;
-    height: 500px;
+    height: 100vh;
     text-align: center;
     background: url("../img/crew-place-2.jpg") no-repeat fixed;
 }
@@ -45,8 +45,8 @@
 .hero__info__container p {
     background: rgba(25, 100, 183, .2);
     text-align: justify;
-    padding: 2rem;
-    font-size: 1.5rem;
+    padding: 4rem;
+    font-size: 2rem;
     margin-top: 3rem;
     animation: fadeIn 2s;
     color: #fff;
