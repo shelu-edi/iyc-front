@@ -41,6 +41,10 @@
     border-radius: 0;
 }
 
+.nav__link:hover {
+    text-decoration: none;
+}
+
 .nav__dropdown:hover {
     border-radius: 0;
 }

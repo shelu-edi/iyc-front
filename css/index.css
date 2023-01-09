@@ -3,12 +3,6 @@
   font-family: "Trebuchet MS", sans-serif;
 }
 
-.tag.visible {
-  opacity: 1;
-}
-
-
-
 /* Top Div */
 .top__div {
   display: flex;
@@ -134,26 +128,34 @@
   grid-template-columns: 1fr 1fr 1fr;
   height: 100%;
   margin-bottom: 50px;
+  margin-left: 4rem;
   /*border: 1px solid #000;*/
 }
 
 .story__card {
   background: rgba(217, 217, 217, 0.2);
-  height: 450px;
+  height: 480px;
   width: 85%;
-  padding-left: 50px;
   margin-bottom: 10px;
 }
+
+.story__card__wrapper {
+  padding-left: 50px;
+  z-index: 1;
+}
+
 
 .story__head {
   margin-top: 40px;
   height: 10%;
   font-size: 24px;
+  margin-left: 30px;
 }
 
 .story__head__2 {
   height: 10%;
   padding-top: 30px;
+  margin-left: 30px;
   /* border: 1px solid #000; */
 }
 
@@ -161,21 +163,52 @@
   text-align: justify;
   padding-right: 30px;
   padding-top: 20px;
+  margin-left: 30px;
   /* border: 1px solid #000; */
 }
 
 .story__read {
   margin-top: 50px;
+  margin-left: 30px;
+  z-index: 50;
+  position: absolute;
 }
 
 .story__read a {
   text-decoration: none;
-  color: #000;
+  color: #1964b7;
+  z-index: 50;
 }
 
-/* .story__read a i {
-    color: #0351B1;
-} */
+.story__hover {
+  height: 480px;
+  width:27.2%;
+  margin-bottom: 10px;
+  /*margin-top:1.7rem;*/
+  /*z-index: 30;*/
+  position: absolute;
+  display: none;
+}
+
+.story__hover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 35;
+}
+
+.story__card:hover .story__hover {
+  display: flex;
+  animation: slideRight .5s;
+}
+
+.gradient__div {
+  position: absolute;
+  background: #1964b7;
+  z-index: 100;
+}
+
+
 
 /* Vision & Mission */
 .vm__wrapper {
@@ -334,188 +367,6 @@
   padding: 20px 0 0 50px;
 }
 
-/*.project__filter__wrapper {*/
-/*  height: 700px;*/
-/*  margin: 20px 0;*/
-/*  width: 100%;*/
-/*  !* border: 1px solid #0351b1; *!*/
-/*  !*border: 1px solid #000;*!*/
-/*}*/
-
-/*.project__filters {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  padding: 50px 0 0 0;*/
-/*  width: 90%;*/
-/*  !* border: 1px solid #002060; *!*/
-/*}*/
-
-/*.project__dropdown {*/
-/*  display: flex;*/
-/*  flex-direction: row;*/
-/*  width: 100%;*/
-/*}*/
-
-/*.drop__head {*/
-/*  font-size: 20px;*/
-/*  font-weight: 600;*/
-/*  margin: 15px 10px 0 20px;*/
-/*}*/
-
-/*.drop__item {*/
-/*  padding-top: 20px;*/
-/*  height: 30px;*/
-/*  text-align: center;*/
-/*}*/
-
-/*.drop__item:hover {*/
-/*  cursor: pointer;*/
-/*  !*background: rgba(1, 26, 69, 0.3);*!*/
-/*}*/
-
-/*.filter__dropdown {*/
-/*  display: flex;*/
-/*  min-width: 15rem;*/
-/*  position: relative;*/
-/*  margin: 0 0 0 10px;*/
-/*  border-radius: 10px;*/
-/*  height: 100px;*/
-/*}*/
-
-/*!* Drop1 *!*/
-
-/*.custom-select {*/
-/*  height: 50px;*/
-/*}*/
-
-/*details {*/
-/*  position: relative;*/
-/*  width: 200px;*/
-/*  margin-right: 1rem;*/
-/*}*/
-
-/*details[open] {*/
-/*  z-index: 1;*/
-/*}*/
-
-/*summary {*/
-/*  padding: 1rem;*/
-/*  cursor: pointer;*/
-/*  border-radius: 5px;*/
-/*  background-color: #fff;*/
-/*  border: 1px solid #0351b1;*/
-/*  list-style: none;*/
-/*  height: 20px;*/
-/*  width: 100%;*/
-/*  font-size: 0.5rem;*/
-/*  z-index: 1;*/
-/*  position: relative;*/
-/*}*/
-
-/*summary::-webkit-details-marker {*/
-/*  display: none;*/
-/*}*/
-
-/*details[open] summary:before {*/
-/*  content: "";*/
-/*  display: block;*/
-/*  width: 100vw;*/
-/*  height: 100vh;*/
-/*  background: transparent;*/
-/*  position: fixed;*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*}*/
-
-/*summary:after {*/
-/*  content: "";*/
-/*  display: inline-block;*/
-/*  float: right;*/
-/*  width: 0.5rem;*/
-/*  height: 0.5rem;*/
-/*  border-bottom: 1px solid currentColor;*/
-/*  border-left: 1px solid currentColor;*/
-/*  border-bottom-left-radius: 2px;*/
-/*  transform: rotate(45deg) translate(50%, 0%);*/
-/*  transform-origin: center center;*/
-/*  transition: transform ease-in-out 100ms;*/
-/*}*/
-
-/*summary:focus {*/
-/*  outline: none;*/
-/*}*/
-
-/*details[open] summary:after {*/
-/*  transform: rotate(-45deg) translate(0%, 0%);*/
-/*}*/
-
-/*.list {*/
-/*  width: 100%;*/
-/*  list-style: none;*/
-/*  background: #fff;*/
-/*  position: absolute;*/
-/*  top: calc(100% + 0.5rem);*/
-/*  left: 0;*/
-/*  padding: 1rem;*/
-/*  margin: 0;*/
-/*  box-sizing: border-box;*/
-/*  border-radius: 5px;*/
-/*  max-height: 200px;*/
-/*  overflow-y: auto;*/
-/*}*/
-
-/*.list__li {*/
-/*  margin: 0;*/
-/*  padding: 1rem 0;*/
-/*  border-bottom: 1px solid #ccc;*/
-/*}*/
-
-/*.list__li:first-child {*/
-/*  padding-top: 0;*/
-/*}*/
-
-/*.list__li:last-child {*/
-/*  padding-bottom: 0;*/
-/*  border-bottom: none;*/
-/*}*/
-
-/*!* FAKE SELECT *!*/
-
-/*summary.radios {*/
-/*  counter-reset: radios;*/
-/*}*/
-
-/*input[type="radio"] {*/
-/*  counter-increment: radios;*/
-/*  appearance: none;*/
-/*  display: none;*/
-/*}*/
-
-/*input[type="radio"]:checked {*/
-/*  display: inline;*/
-/*  --display: block;*/
-/*}*/
-
-/*input[type="radio"]:after {*/
-/*  content: attr(title);*/
-/*  display: inline;*/
-/*  font-size: 1rem;*/
-/*}*/
-
-/*ul.list {*/
-/*  counter-reset: labels;*/
-/*  width: 100%;*/
-/*  margin-top: 0;*/
-/*  padding-top: 0;*/
-/*}*/
-
-/*label {*/
-/*  width: 100%;*/
-/*  display: flex;*/
-/*  cursor: pointer;*/
-/*  justify-content: space-between;*/
-/*}*/
-
 /* Drop 2 */
 
 .filter__wrapper {
@@ -566,12 +417,19 @@ h2{
 }
 
 .selectpicker {
+  margin: 1rem 0 0 0;
   align-self: center;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #1964b7;
+  color: #1964b7;
 }
 
 .selectpicker option {
   text-align: center;
 }
+
+
 
 .bootstrap-select>.dropdown-toggle{
   background: #EDF2F5;
@@ -627,7 +485,7 @@ label span {
   display: var(--display);
   width: 1rem;
   height: 1rem;
-  border: 1px solid #727272;
+  border: 1px solid #1964b7;
   border-radius: 3px;
 }
 
@@ -832,8 +690,13 @@ label span {
     grid-template-columns: 1fr 1fr;
   }
 
+  .story__card {
+    height: 100%;
+    margin-bottom: 5rem;
+  }
+
   .vm__wrapper {
-    width: 89%;
+    width: 100%;
     padding-left: 0;
   }
 
@@ -1099,6 +962,15 @@ label span {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 27.2%;
   }
 }
 
