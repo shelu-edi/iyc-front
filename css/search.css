@@ -15,11 +15,16 @@
 
 .search__container input {
     height: 2rem;
-    width: 20rem;
+    width: 10rem;
     outline: none;
     border: none;
     border-bottom: 2px solid #1964b7;
     margin-right: 1rem;
+}
+
+.search__container input:focus {
+    width: 20rem;
+    transition: width .5s ease-in-out;
 }
 
 .search__container i {
@@ -33,7 +38,7 @@
 }
 
 .search__header {
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin-left: 3rem;
 }
 
