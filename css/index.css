@@ -117,7 +117,7 @@
   margin: 2rem 0;
 }
 
-.carousel__item img{
+.carousel__item img {
   height: 700px;
   width: 100%;
 }
@@ -143,7 +143,6 @@
   padding-left: 50px;
   z-index: 1;
 }
-
 
 .story__head {
   margin-top: 40px;
@@ -182,7 +181,7 @@
 
 .story__hover {
   height: 480px;
-  width:27.2%;
+  width: 27.2%;
   margin-bottom: 10px;
   /*margin-top:1.7rem;*/
   /*z-index: 30;*/
@@ -199,7 +198,7 @@
 
 .story__card:hover .story__hover {
   display: flex;
-  animation: slideRight .5s;
+  animation: slideRight 0.5s;
 }
 
 .gradient__div {
@@ -207,8 +206,6 @@
   background: #1964b7;
   z-index: 100;
 }
-
-
 
 /* Vision & Mission */
 .vm__wrapper {
@@ -287,7 +284,7 @@
   box-shadow: none;
 }
 
-.focus__img  {
+.focus__img {
   width: 100%;
   box-shadow: none;
   padding: 1rem;
@@ -373,7 +370,7 @@
   display: flex;
 }
 
-.bootstrap-select.open > .dropdown-menu{
+.bootstrap-select.open > .dropdown-menu {
   display: block;
   opacity: 1;
   visibility: visible;
@@ -382,7 +379,7 @@
   -ms-transform: scale(1) translateY(0);
   transform: scale(1) translateY(0);
 }
-.bootstrap-select > .dropdown-menu{
+.bootstrap-select > .dropdown-menu {
   /*display: none;*/
   opacity: 0;
   max-height: 330px !important;
@@ -394,11 +391,12 @@
   -webkit-transform: scale(0.85) translateY(-5px);
   -ms-transform: scale(0.85) translateY(-5px);
   transform: scale(0.85) translateY(-5px);
-  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
+    opacity 0.15s ease-out;
   transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
 }
 
-.box{
+.box {
   width: 400px;
   height: 120px;
   margin: auto;
@@ -409,10 +407,10 @@
   display: flex;
   flex-direction: column;
 }
-h2{
+h2 {
   text-align: center;
 }
-.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
   width: 100%;
 }
 
@@ -429,10 +427,8 @@ h2{
   text-align: center;
 }
 
-
-
-.bootstrap-select>.dropdown-toggle{
-  background: #EDF2F5;
+.bootstrap-select > .dropdown-toggle {
+  background: #edf2f5;
   border: 0;
   width: 100%;
   display: block;
@@ -440,27 +436,30 @@ h2{
   color: #000000;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 0.030em;
+  letter-spacing: 0.03em;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover{
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
   color: #000;
 }
 .dropdown-toggle::after {
   content: "";
   position: absolute;
-  border-top: .5em solid;
-  border-right: .5em solid transparent;
+  border-top: 0.5em solid;
+  border-right: 0.5em solid transparent;
   border-bottom: 0;
-  border-left: .5em solid transparent;
+  border-left: 0.5em solid transparent;
   right: 10px;
   top: 48%;
 }
-.dropdown-menu{
+.dropdown-menu {
   box-shadow: 0px 0px 15px rgba(60, 76, 150, 0.1);
   -webkit-box-shadow: 0px 0px 15px rgba(60, 76, 150, 0.1);
   -moz-box-shadow: 0px 0px 15px rgba(60, 76, 150, 0.1);
@@ -470,12 +469,12 @@ h2{
   min-width: 100% !important;
   width: 100% !important;
 }
-.bootstrap-select .dropdown-menu a{
+.bootstrap-select .dropdown-menu a {
   display: block;
   padding: 8px 15px;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 0.030em;
+  letter-spacing: 0.03em;
 }
 
 /* */
@@ -537,8 +536,6 @@ label span {
 .project__card__info {
   padding: 10px 0 30px 30px;
 }
-
-
 
 /*  Pagination  */
 .pagination__wrapper {
@@ -659,7 +656,6 @@ label span {
 
 /* Responsive */
 @media screen and (max-width: 960px) {
-
   .top__div video {
     width: 100%;
   }
@@ -733,10 +729,10 @@ label span {
   }
 
   .filter__wrapper {
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     height: 30rem;
   }
-
 
   .project__info__card__wrapper {
     grid-template-columns: 1fr 1fr;

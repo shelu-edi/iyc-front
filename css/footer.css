@@ -15,11 +15,12 @@
 
 .footer__top {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 150px;
-    width: 100%;
-    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    /*height: 150px;*/
+    /*width: 100%;*/
+    /*padding-top: 20px;*/
+    /*border: 1px solid #000;*/
 }
 
 .footer__top__img {
@@ -40,9 +41,10 @@
 
 .footer__newsletter {
     display: flex;
-    flex-direction: row;
+    position: relative;
+    justify-content: center;
     height: 66px;
-    width: 350px;
+    width: 100%;
     padding: 20px 0 0 60rem;
     margin-top: 2rem;
 }
