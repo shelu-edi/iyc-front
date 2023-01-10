@@ -92,6 +92,15 @@ const mobileMenu = () => {
     mobileMenuDrop.classList.toggle('.is-active');
 
     console.log("blah");
+
+    if (mobileMenuDrop.style.display === 'none') {
+        mobileMenuDrop.style.display = 'flex';
+    } else {
+        mobileMenuDrop.style.display = 'none';
+    }
+
+
+
 }
 
 menu.addEventListener('click', mobileMenu);
