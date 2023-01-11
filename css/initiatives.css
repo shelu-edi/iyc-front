@@ -23,6 +23,7 @@
     text-align: center;
     margin-top: 2rem;
     color: #1964b7;
+    animation: fadeIn 1s;
 }
 
 /* Conference */
@@ -32,15 +33,17 @@
     flex-direction: column;
 }
 
-.conference__container p {
+.conference__title {
     font-size: 1.5rem;
     margin-left: 3rem;
+    animation: fadeIn 1.5s;
 }
 
 .conference__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 3rem 0 3rem 3rem;
+    animation: fadeIn 2s;
 }
 
 .conference__card {
@@ -51,21 +54,39 @@
     width: 100%;
 }
 
+.conference__card__title {
+    position: absolute;
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 6rem 0 0 5rem;
+    z-index: 30;
+}
+
+.conference__card:hover .conference__card__title {
+    display: flex;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
 /* International Initiatives */
 .international__initiatives__container {
     display: flex;
     flex-direction: column;
 }
 
-.international__initiatives__container p {
+.initiative__title {
     font-size: 1.5rem;
     margin-left: 3rem;
+    animation: fadeIn 2.5s;
 }
 
 .international__initiatives__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 3rem 0 3rem 3rem;
+    animation: fadeIn 3s;
 }
 
 .international__initiatives__card {
@@ -74,4 +95,20 @@
 
 .international__initiatives__card img {
     width: 100%;
+}
+
+.international__initiatives__title {
+    position: absolute;
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 6rem 0 0 5rem;
+    z-index: 30;
+}
+
+.international__initiatives__card:hover .international__initiatives__title {
+    display: flex;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
 }
