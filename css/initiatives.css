@@ -1,0 +1,77 @@
+* {
+@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Initiatives */
+.initiative__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.initiative__head {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #1964b7;
+}
+
+/* Conference */
+
+.conference__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.conference__container p {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.conference__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 3rem 0 3rem 3rem;
+}
+
+.conference__card {
+    width: 90%;
+}
+
+.conference__card img {
+    width: 100%;
+}
+
+/* International Initiatives */
+.international__initiatives__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.international__initiatives__container p {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.international__initiatives__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 3rem 0 3rem 3rem;
+}
+
+.international__initiatives__card {
+    width: 90%;
+}
+
+.international__initiatives__card img {
+    width: 100%;
+}

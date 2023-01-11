@@ -201,6 +201,10 @@
   animation: slideRight 0.5s;
 }
 
+.story__card:hover .story__read a {
+  background: #fff;
+}
+
 .gradient__div {
   position: absolute;
   background: #1964b7;
