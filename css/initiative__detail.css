@@ -1,0 +1,39 @@
+* {
+@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Initiative */
+.initiative__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.carousel__item img {
+    height: 700px;
+    width: 1000px;
+    object-fit: cover;
+}
+
+
+.initiative__info__container {
+    margin: 2rem;
+    text-align: justify;
+    display: flex;
+    font-size: 1.2rem;
+}
