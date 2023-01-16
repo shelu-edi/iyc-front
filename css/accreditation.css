@@ -3,23 +3,123 @@
   font-family: "Trebuchet MS", sans-serif;
 }
 
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 /* Accreditation */
 .acc__container {
   display: flex;
-  margin: 1rem 0;
+  flex-direction: column;
+  margin: 2rem 0;
 }
 
 .acc__head {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #1964b7;
+  text-align: center;
+  animation: fadeIn 1s;
 }
+
+.acc__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 2rem 0 0 5rem;
+  animation: fadeIn 1.5s;
+}
+
+.acc__card {
+  width: 90%;
+}
+
+.acc__card img {
+  width: 90%;
+  height: 20rem;
+}
+
+.acc__info {
+  display: none;
+  position: absolute;
+  align-items: center;
+  font-size: 1.5rem;
+  background: #1964b7;
+  width: 25.4%;
+  height: 20rem;
+  opacity: .7;
+}
+
+.acc__info p {
+  /*margin-left: 7rem;*/
+  text-align: center;
+  color: #fff;
+}
+
+#unep-info {
+  margin-left: 7rem;
+}
+
+.acc__card:hover .acc__info {
+  display: flex;
+  cursor: pointer;
+}
+
 /* Affiliations */
 .aff__container {
   display: flex;
-  margin: 1rem 0;
+  flex-direction: column;
+  margin: 2rem 0;
+  height: 100%;
 }
 
 .aff__head {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #1964b7;
+  text-align: center;
+  animation: fadeIn 2s;
 }
+
+.aff__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 2rem 0 0 5rem;
+  animation: fadeIn 2.5s;
+}
+
+.aff__card {
+  width: 90%;
+}
+
+.aff__card img {
+  width: 90%;
+  height: 20rem;
+}
+
+.aff__info {
+  display: none;
+  position: absolute;
+  align-items: center;
+  font-size: 1.5rem;
+  background: #1964b7;
+  width: 25.4%;
+  height: 20rem;
+  opacity: .7;
+}
+
+.aff__info p {
+  /*margin-left: 7rem;*/
+  text-align: center;
+  color: #fff;
+}
+
+.aff__card:hover .aff__info {
+  display: flex;
+  cursor: pointer;
+}
+
