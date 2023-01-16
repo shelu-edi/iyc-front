@@ -44,14 +44,17 @@
     position: relative;
     justify-content: center;
     height: 66px;
-    width: 100%;
-    padding: 20px 0 0 60rem;
+    width: 30%;
+    padding: 20px 0 0 40rem;
     margin-top: 2rem;
+    margin-left: 16rem;
 }
 
 .footer__newsletter__desc {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-right: 1rem;
+    width: 100%;
 }
 
 .footer__newsletter__submit {
@@ -87,6 +90,7 @@
     background: #fff;
     width: 60px;
     margin-top: .1rem;
+    margin-bottom: 1rem;
 }
 
 

@@ -17,8 +17,9 @@
 .hero__container {
     display: flex;
     flex-direction: row;
-    margin: 2rem 0;
     justify-content: space-evenly;
+    background: url("../img/crew-place-2.jpg") no-repeat fixed;
+    height: 100vh;
 }
 
 .hero__container img {
@@ -28,18 +29,20 @@
 }
 
  .hero__head {
-    margin: 4rem 0 0 1rem;
-    font-size: 1.8rem;
-    color: #1964b7;
-     animation: fadeIn 1.5s;
+     margin: 15rem 0 0 1rem;
+     font-size: 3rem;
+     font-weight: 600;
+     text-align: center;
+     color: #1964b7;
+     animation: fadeIn 1s;
 }
 
  .hero__wrapper p {
-     font-size: .9rem;
-     padding: 0 1rem;
+     font-size: 1.2rem;
+     padding: 4rem 1rem;
      margin-top: 2rem;
      text-align: justify;
-     animation: fadeIn 2s;
+     animation: fadeIn 1.5s;
  }
 
 /* Agenda */
@@ -82,9 +85,15 @@
 
 .sdg__head {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 2rem 0;
     color: #1964b7;
+}
+
+.sdg__container p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 1rem;
 }
 
 #sdg-wellbeing-head {
@@ -231,7 +240,6 @@
 .sdg__card img {
     width: 500px;
     height: 300px;
-    border-radius: 10px;
 }
 
 #filter-poverty {
@@ -249,7 +257,7 @@
     z-index: 2;
 }
 
-.sdg__card:hover #sdg-poverty-details{
+.sdg__card:hover .sdg__details{
     cursor: pointer;
     display: flex;
 }

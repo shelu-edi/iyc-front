@@ -34,7 +34,27 @@
     height: 100vh;
     justify-content: space-around;
     background: url("../img/entrepreneur-1.jpg") no-repeat fixed;
+    background-size: cover;
 }
+
+.focus__info__top__head {
+    font-size: 3rem;
+    color: #1964b7;
+    animation: fadeIn 1s;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.focus__info__div__top  p{
+    padding: 3rem 0 0 0;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    /*color: #1964b7;*/
+    width: 100%;
+    animation: fadeIn 1.5s;
+}
+
 
 .focus__wrapper {
     display: flex;
@@ -62,19 +82,20 @@
 }
 
 .focus__info__head {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #1964b7;
     animation: fadeIn 2s;
     text-align: center;
 }
 
 .focus__info__div p {
-    padding-top: 3rem;
-    font-size: 1.5rem;
+    padding: 3rem 0 0 0;
+    font-size: 1rem;
     text-align: center;
-    color: #fff;
-    width: 100%;
+    /*color: #1964b7;*/
+    width: 90%;
     animation: fadeIn 2.5s;
+    margin: 0 .5rem;
 }
 
 #education, #society, #cross-cutting {
