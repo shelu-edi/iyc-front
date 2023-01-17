@@ -9,15 +9,15 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
-  background: url("../img/crew-place-2.jpg") no-repeat fixed;
+  background: url("../img/worldwide.jpg") no-repeat fixed;
   height: 100vh;
 }
 
 .hero__head {
-  font-size: 3rem;
+  font-size: 8rem;
   text-align: center;
-  margin-top: 2rem;
-  color: #1964b7;
+  margin-top: 10rem;
+  color: #fff;
   animation: fadeIn 1s;
 }
 
@@ -36,10 +36,10 @@
 .hero__wrapper p {
   text-align: justify;
   padding: 3rem 2rem 0 2rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 3rem;
   animation: fadeIn 1.5s;
-  color: #1964b7;
+  color: #fff;
 }
 
 /* Carousel */
