@@ -50,10 +50,23 @@
 }
 
 .search__item {
-    width: 80%;
+    width: 50%;
     display: flex;
-    height: 100px;
+    height: 8rem;
     border: 1px solid #1964b7;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.search__item img {
+    width: 10rem;
+    height: 6em;
+}
+
+.search__item_desc__title {
+    font-size: 1.5rem;
+}
+
+.search__item p {
+    margin-top: .5rem;
 }
