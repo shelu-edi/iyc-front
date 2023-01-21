@@ -26,10 +26,11 @@
 }
 
 .hero__container h1 {
-    margin: 2rem 0 0 0;
-    font-size: 5rem;
+    margin: 1rem 0 0 0;
+    font-size: 6rem;
     color: #fff;
-    text-align: center;;
+    text-align: center;
+    animation: fadeIn 1s;
 }
 
 .hero__container p {
@@ -37,6 +38,7 @@
     color: #fff;
     font-size: 1.2rem;
     margin: 0 3rem;
+    animation: fadeIn 1.5s;
 
 }
 
@@ -63,6 +65,13 @@
 .achieve__card__details {
     margin: 1rem 2rem 0 2rem;;
     text-align: center;
+}
+
+.achive__card:hover {
+    cursor: pointer;
+    background: #fff;
+    color: rgba(204, 51, 51, 1);
+    transition: all 0.5s ease;
 }
 
 /* Goals */
