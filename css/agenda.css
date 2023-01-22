@@ -1,309 +1,310 @@
 * {
-@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
-    font-family: "Trebuchet MS", sans-serif;
+  @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 /* Animations */
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Hero */
 .hero__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background: url("../img/agenda-1.jpg") no-repeat fixed;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: url("../img/agenda-1.jpg") no-repeat fixed;
+  height: 100vh;
 }
 
 .hero__container img {
-    width: 50%;
-    border-radius: 10px;
-    animation: fadeIn 1s;
+  width: 50%;
+  border-radius: 10px;
+  animation: fadeIn 1s;
 }
 
- .hero__head {
-     margin: 15rem 0 0 1rem;
-     font-size: 2.8rem;
-     font-weight: 600;
-     text-align: center;
-     color: #fff;
-     animation: fadeIn 1s;
+.hero__head {
+  margin: 15rem 0 0 1rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  animation: fadeIn 1s;
 }
 
- .hero__wrapper p {
-     font-size: 1.2rem;
-     padding: 4rem 1rem;
-     margin-top: 2rem;
-     text-align: justify;
-     animation: fadeIn 1.5s;
-     color: #fff;
- }
+.hero__wrapper p {
+  font-size: 1.2rem;
+  padding: 4rem 1rem;
+  margin-top: 2rem;
+  text-align: justify;
+  animation: fadeIn 1.5s;
+  color: #fff;
+}
 
 /* Agenda */
 .agenda_container {
-    display: flex;
-    margin: 2rem 0;
+  display: flex;
+  margin: 2rem 0;
 }
 
 .agenda_container img {
-    width: 40%;
-    border-radius: 10px;
-    animation: fadeIn 2.5s;
+  width: 40%;
+  border-radius: 10px;
+  animation: fadeIn 2.5s;
 }
 
 .agenda__head {
-    font-size: 1.8rem;
-    color: #1964b7;
-    animation: fadeIn 3s;
+  font-size: 1.8rem;
+  color: #1964b7;
+  animation: fadeIn 3s;
 }
 
 .agenda__wrapper {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .agenda__wrapper p {
-    margin-top: 3rem;
-    animation: fadeIn 3.5s;
-    text-align: justify;
+  margin-top: 3rem;
+  animation: fadeIn 3.5s;
+  text-align: justify;
 }
 
-#agenda-planet, #agenda-peace {
-    flex-direction: row-reverse;
+#agenda-planet,
+#agenda-peace {
+  flex-direction: row-reverse;
 }
 
 /* SDG */
 .sdg__container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .sdg__head {
-    text-align: center;
-    font-size: 3rem;
-    margin: 2rem 0;
-    color: #1964b7;
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0;
+  color: #1964b7;
 }
 
 .sdg__container p {
-    font-size: 1.2rem;
-    text-align: justify;
-    margin: 0 1rem;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin: 0 1rem;
 }
 
 #sdg-wellbeing-head {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 #sdg-education-head {
-    margin-left: 13rem;
+  margin-left: 13rem;
 }
 
 #sdg-gender-head {
-    margin-left: 11rem;
+  margin-left: 11rem;
 }
 
 #sdg-water-head {
-    margin-left: 8rem;
+  margin-left: 8rem;
 }
 
 #sdg-energy-head {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 #sdg-economic-head {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 #sdg-infrastructure-head {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 #sdg-inequalities-head {
-    margin-left: 10rem;
+  margin-left: 10rem;
 }
 
-#sdg-communities-head{
-    margin-left: 1rem;
+#sdg-communities-head {
+  margin-left: 1rem;
 }
 
 #sdg-consumption-head {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 #sdg-climate-head {
-    margin-left: 13rem;
+  margin-left: 13rem;
 }
 
 #sdg-life-below-head {
-    margin-left: 13rem;
+  margin-left: 13rem;
 }
 
 #sdg-life-land-head {
-    margin-left: 14rem;
+  margin-left: 14rem;
 }
 
 #sdg-peace-head {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 #sdg-partnerships-head {
-    margin-left: 6rem;
+  margin-left: 6rem;
 }
 
 .sdg__wrapper {
-    margin: 2rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  margin: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .sdg__card {
-    display: flex;
-    width: 100%;
-    height: 400px;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  align-items: center;
 }
 
 #sdg-poverty {
-    background: rgba(204, 51, 51, 1);
+  background: rgba(204, 51, 51, 1);
 }
 
 #sdg-hunger {
-    background: #cc9933;
+  background: #cc9933;
 }
 
 #sdg-wellbeing {
-    background: #339933;
+  background: #339933;
 }
 
 #sdg-education {
-    background: #cc0033;
+  background: #cc0033;
 }
 
 #sdg-gender {
-    background: #ff3333;
+  background: #ff3333;
 }
 
 #sdg-water {
-    background: #33cccc;
+  background: #33cccc;
 }
 
 #sdg-energy {
-    background: #fcc30b;
+  background: #fcc30b;
 }
 
 #sdg-economic {
-    background: #990033;
+  background: #990033;
 }
 
 #sdg-infrastructure {
-    background: #ff6633;
+  background: #ff6633;
 }
 
 #sdg-inequalities {
-    background: #cc0066;
+  background: #cc0066;
 }
 
 #sdg-communities {
-    background: #ff9933;
+  background: #ff9933;
 }
 
 #sdg-consumption {
-    background: #cc9933;
+  background: #cc9933;
 }
 
 #sdg-climate {
-    background: #336633;
+  background: #336633;
 }
 
 #sdg-life-below {
-    background: #0099cc;
+  background: #0099cc;
 }
 
 #sdg-life-land {
-    background: #66cc33;
+  background: #66cc33;
 }
 
 #sdg-peace {
-    background: #006699;
+  background: #006699;
 }
 
 #sdg-partnerships {
-    background: #003366;
+  background: #003366;
 }
 
 .sdg__card img {
-    width: 500px;
-    height: 300px;
+  width: 500px;
+  height: 300px;
 }
 
 #filter-poverty {
-    background: rgba(204, 51, 51, 0.4);
+  background: rgba(204, 51, 51, 0.4);
 }
 
 .sdg__card p {
-    display: flex;
-    /*position: absolute;*/
-    color: #fff;
-    font-size: 3rem;
-    text-align: center;
-    margin-left: 18rem;
-    font-weight: 700;
-    z-index: 2;
+  display: flex;
+  /*position: absolute;*/
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: 18rem;
+  font-weight: 700;
+  z-index: 2;
 }
 
-.sdg__card:hover .sdg__details{
-    cursor: pointer;
-    display: flex;
+.sdg__card:hover .sdg__details {
+  cursor: pointer;
+  display: flex;
 }
 
 .sdg__details {
-    position: absolute;
-    color: #fff;
-    width: 48.5%;
-    height: 400px;
-    /*background:rgba(204, 51, 51, 1) ;*/
-    font-size: 1rem;
-    display: none;
-    text-align: center;
-    z-index: 20;
-    /*transition: all 1s ease-in;*/
-    margin: auto;
+  position: absolute;
+  color: #fff;
+  width: 48.5%;
+  height: 400px;
+  /*background:rgba(204, 51, 51, 1) ;*/
+  font-size: 1rem;
+  display: none;
+  text-align: center;
+  z-index: 20;
+  /*transition: all 1s ease-in;*/
+  margin: auto;
 }
 
 .sdg__details img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .sdg__details p {
-    color: #fff;
-    position: absolute;
-    font-size: 1.5rem;
-    text-align: justify;
-    align-self: center;
-    margin: 0 0 0 10px;
-    width: 98%;
+  color: #fff;
+  position: absolute;
+  font-size: 1.5rem;
+  text-align: justify;
+  align-self: center;
+  margin: 0 0 0 10px;
+  width: 98%;
 }
 
 #sdg-poverty-details p {
-    /*padding-top: 3rem;*/
+  /*padding-top: 3rem;*/
 }
 
 #sdg-poverty-details {
-    /*background: url("../img/sdg/poverty.jpg") no-repeat content-box;*/
+  /*background: url("../img/sdg/poverty.jpg") no-repeat content-box;*/
 }
 
-
-
-
-
-
-
+/* Responsive */
+@media screen and (max-width: 960px) {
+  .sdg__card {
+    font-size: 0.3rem;
+  }
+}

@@ -201,6 +201,43 @@
 
 /* Responsive */
 @media screen and (max-width: 960px) {
+    .hero__info__container {
+        height: 100vh;
+        padding-top: 0;
+    }
+
+    .hero__info__container p {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .hero__info__container {
+        height: 10vh;
+    }
+
+    .hero__info__container p {
+
+    }
+
+    .charter__head {
+        font-size: .8rem;
+    }
+
+    .charter__wrapper p {
+        font-size: .7rem;
+    }
+
+    .history__head {
+        font-size: 1rem;
+    }
+
+    .history__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 

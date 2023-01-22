@@ -769,8 +769,6 @@ label span {
     /* border: 1px solid #002060; */
   }
 
-  .pagination__wrapper {
-  }
 
   .pagination__card {
     width: 50px;
@@ -892,12 +890,16 @@ label span {
     border-right: none;
   }
 
+  .focus__wrap__1 {
+    font-size: 1.5rem;
+  }
+
   .wrap__head {
-    font-size: 20px;
+    font-size: 1.2rem;
   }
 
   .wrap__desc {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .partnership__head {
@@ -916,7 +918,9 @@ label span {
   .partnership__join {
     width: 80px;
     height: 30px;
-    padding-top: 2px;
+    padding-top: 0;
+    padding-bottom: 1rem;
+
   }
 
   .partnership__join a {
@@ -945,15 +949,24 @@ label span {
     border: 1px solid #0351b1;
   }
 
+  .box h2 {
+    font-size: 1.2rem;
+  }
+
   .project__info__card__wrapper {
     grid-template-columns: 1fr;
     margin-right: 20px;
     margin-left: 0;
   }
 
+  .project__card__head {
+    font-size: 1rem;
+  }
+
   .project__card__info {
     text-align: justify;
-    padding: 0 10px;
+    padding: 0 2rem;
+    font-size: .5rem;
   }
 
   .project__card {
@@ -962,7 +975,7 @@ label span {
   .pagination__wrapper {
     width: 100%;
     margin-left: 0;
-    padding-right: 200px;
+    /*padding-right: 200px;*/
     padding-left: 0;
   }
 
