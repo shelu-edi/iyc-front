@@ -1,0 +1,98 @@
+* {
+    @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Hero */
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: url("../img/sdg/poverty.jpg") no-repeat fixed;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.hero__container h1 {
+    margin: 1rem 0 0 0;
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+
+.hero__container p {
+    text-align: justify;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 3rem;
+    animation: fadeIn 1.5s;
+
+}
+
+/* Achivement */
+.achive__container {
+    display: flex;
+    margin-bottom: 2rem;;
+}
+
+.achive__card {
+    background: rgba(204, 51, 51, 1);
+    color: #fff;
+    margin: 0 1rem;
+    height: 10rem;
+}
+
+.achive__card__number {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.achieve__card__details {
+    margin: 1rem 2rem 0 2rem;;
+    text-align: center;
+}
+
+.achive__card:hover {
+    cursor: pointer;
+    background: #fff;
+    color: rgba(204, 51, 51, 1);
+    transition: all 0.5s ease;
+}
+
+/* Goals */
+.goal__container {
+    display: flex;
+    flex-direction: column;;
+}
+
+.goal__title {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.goal__list {
+    align-self: center;
+    margin: 2rem;
+}
+
+.goal__list li {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
