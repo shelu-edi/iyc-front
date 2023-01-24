@@ -58,6 +58,7 @@
 
 .focus__wrapper {
     display: flex;
+    flex-direction: row;
     margin: 2rem 0;
     justify-content: space-around;
 }
@@ -103,6 +104,52 @@
     flex-direction: row-reverse;
 }
 
-        /*#well-being p {*/
-        /*    font-size: .8rem;*/
-        /*}*/
+/* Responsive */
+@media screen and (max-width: 960px) {
+    .focus__info__top__head {
+        font-size: 2.5rem;
+    }
+
+    .focus__info__div__top p {
+        margin-top: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .focus__wrapper img {
+        align-self: center;
+        height: 15rem;
+    }
+
+    .focus__info__head {
+        font-size: 1.5rem;
+    }
+
+    .focus__info__div p {
+        font-size: 1rem;
+        text-align: justify;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .focus__info__top__head {
+        font-size: 1.2rem;
+    }
+
+    .focus__info__div__top p {
+        font-size: 1rem;
+    }
+
+    .focus__wrapper, #education, #society, #cross-cutting {
+        flex-direction: column;
+    }
+
+    .focus__info__div {
+        width: 100%;
+    }
+
+    .focus__wrapper img {
+        width: 100%;
+    }
+
+}

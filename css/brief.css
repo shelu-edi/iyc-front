@@ -214,13 +214,28 @@
 }
 
 @media screen and (max-width: 480px) {
+    .hero__wrapper {
+        margin-top: .1rem;
+        height: 31rem;
+    }
+
     .hero__info__container {
-        height: 10vh;
+        height: 100vh;
+        background-size: 100vh;
     }
 
     .hero__info__container p {
-
+        margin-top: 1rem;
+        padding-top: 1rem;
+        font-size: 1rem;
+        align-self: auto;
+        height: 22rem;
     }
+
+    .mission__wrapper {
+        background: #fff;
+    }
+
 
     .charter__head {
         font-size: .8rem;
@@ -231,13 +246,26 @@
     }
 
     .history__head {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
     .history__wrapper {
         display: flex;
         flex-direction: column;
     }
+
+    .mdg__wrapper p {
+        font-size: 1.2rem;
+    }
+
+    .mdg__list {
+        margin-right: 2rem;
+    }
+
+    .mdg__item {
+        font-size: 1rem;
+    }
+
 
 }
 
