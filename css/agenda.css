@@ -304,15 +304,76 @@
 
 /* Responsive */
 @media screen and (max-width: 960px) {
+  .hero__head {
+    font-size: 2rem;
+  }
+
+  #partnership-img {
+    align-self: center;
+  }
+
+  .agenda_container img {
+    height: 10rem;
+  }
+
+
+
+
   .sdg__wrapper {
     grid-template-columns: 1fr;
+    justify-content: center;
+    margin-left: 4rem;
   }
 
   .sdg__card {
     font-size: 0.3rem;
-    width: 30rem;
+    width: 40rem;
+    flex-direction: column;
+    height: 20rem;
+    padding-top: 1rem;
   }
+
+  .sdg__card p {
+    font-size: 1.8rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #sdg-wellbeing-head , #sdg-education-head, #sdg-gender-head, #sdg-water-head, #sdg-energy-head, #sdg-inequalities-head,
+  #sdg-climate-head, #sdg-life-below-head, #sdg-life-land-head, #sdg-partnerships-head
+  {
+    margin-left: 0;
+  }
+
+  #sdg-inequalities-details p, #sdg-life-land-details p, #sdg-life-below-details p{
+    font-size: 1rem;
+  }
+
+  .sdg__details {
+    position: relative;
+    display: flex;
+    color: #1964b7;
+    height: 100%;
+  }
+
+  .sdg__details p {
+    font-size: 1.2rem;
+  }
+
+  .sdg__details img {
+    display: none;
+  }
+
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+  .sdg__wrapper {
+    margin-left: 0;
+  }
+
+  .sdg__card {
+    width: 25rem;
+    margin-left: 0;
+  }
+}
 
