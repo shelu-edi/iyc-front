@@ -108,6 +108,37 @@
     transition: all .3s ease-in-out;
 }
 
+/* Responsive */
+@media screen and (max-width: 960px) {
+    .hero__head {
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .hero__container p {
+        margin-top: 0;
+        font-size: 1.4rem;
+    }
+
+    .movement__head, .contact__head {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero__head {
+        font-size: 2rem;
+    }
+
+    .hero__container p {
+        font-size: 1.2rem;
+    }
+
+    .contact__form {
+        width: 50%;
+    }
+}
+
 
 
 

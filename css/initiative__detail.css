@@ -41,3 +41,14 @@
     font-size: 1.2rem;
     animation: fadeIn 1.5s;
 }
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+    .carousel__item img {
+        height: 50vh;
+    }
+
+    .initiative__info__container {
+        font-size: 1rem;
+    }
+}

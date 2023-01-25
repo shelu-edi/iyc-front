@@ -112,3 +112,26 @@
     color: #fff;
     text-decoration: none;
 }
+
+/* Responsive */
+@media screen and (max-width: 960px) {
+    .conference__card__title, .international__initiatives__title {
+        margin-top: 0;
+    }
+
+    .conference__card a, .international__initiatives__card a {
+        font-size: 1rem;
+        margin-top: 0;
+        margin-left: 0;
+        display: flex;
+        position: relative;
+        color: #1964b7;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .conference__wrapper ,.international__initiatives__wrapper {
+        grid-template-columns: 1fr 1fr;
+        margin-right: 2rem;
+    }
+}

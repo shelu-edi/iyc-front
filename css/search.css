@@ -52,6 +52,7 @@
 .search__item {
     width: 50%;
     display: flex;
+    flex-direction: row;
     height: 8rem;
     border: 1px solid #1964b7;
     align-items: center;
@@ -69,4 +70,39 @@
 
 .search__item p {
     margin-top: .5rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 960px) {
+    .search__item {
+        width: 80%;
+    }
+
+    .search__item__desc {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search__item {
+        height: 100%;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .search__item img {
+        width: 12rem;
+    }
+
+    .search__item_desc__title {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .search__item p {
+        font-size: .6rem;
+    }
+
+    .search__header {
+        font-size: 1.2rem;
+    }
 }

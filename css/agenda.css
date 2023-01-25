@@ -367,13 +367,59 @@
 }
 
 @media screen and (max-width: 480px) {
+  .hero__head {
+    font-size: 1rem;
+  }
+
+  .hero__wrapper p {
+    font-size: .7rem;
+  }
+
+  .agenda_container {
+    flex-direction: column;
+  }
+
+  #agenda-planet,
+  #agenda-peace {
+    flex-direction: column;
+  }
+
+  .agenda_container img {
+    height: 15rem;
+    width: 80%;
+    align-self: center;
+  }
+
+  .agenda__head {
+    font-size: 1.3rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .agenda__wrapper p {
+    font-size: .7rem;
+    margin-top: .5rem;
+  }
+
+  .sdg__head {
+    font-size: 1.3rem;
+  }
+
+  .sdg__container p {
+    font-size: .7rem;
+  }
+
   .sdg__wrapper {
-    margin-left: 0;
+    margin-left: 1rem;
   }
 
   .sdg__card {
     width: 25rem;
     margin-left: 0;
+  }
+
+  #sdg-inequalities-details p, #sdg-communities-details p, #sdg-life-below-details p,#sdg-life-land-details p {
+    font-size: .7rem;
   }
 }
 
