@@ -102,18 +102,28 @@
     align-self: center;
 }
 
+.footer__middle {
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer__rights {
-    background: #0351b1;
+    background: #1964b7;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 0 10px 3rem;
+    /*text-align: center;*/
+}
+
+.footer__info {
+    margin-right: 3rem;
 }
 
 .footer__link__container {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    padding-left: 70px;
+    margin: 20px 0 0 3rem;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .footer__link__card {
@@ -124,7 +134,7 @@
 }
 
 .footer__link__header {
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
@@ -155,7 +165,7 @@
 }
 
 .quick__link__header {
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
