@@ -703,6 +703,10 @@ label span {
     animation: none;
   }
 
+  .story__card:hover .story__hover {
+    animation: none;
+  }
+
   .story__read {
     position: relative;
   }

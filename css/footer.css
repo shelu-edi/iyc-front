@@ -239,12 +239,24 @@
         padding-left: 22rem;
     }
 
+    .footer__middle {
+        margin:0 5rem 0 3rem;
+
+    }
+
+    .footer__info {
+        width: 13rem;
+        margin-right: 3rem;
+        /*border: 1px solid #fff;*/
+    }
+
     .footer__link__container {
         padding-left: 30px;
     }
 
     .footer__link__card {
         height: 100%;
+        width: 6rem;
     }
 
     .footer__link__header {
@@ -262,12 +274,31 @@
 
     .detail__wrapper {
         margin-top: 30px;
-        margin-left: 40px;
+        margin-left: 0;
     }
 
-    .footer__info__wrapper,
+    .address__container p {
+        font-size: .8rem;
+    }
+
+    .email__container p {
+        font-size: .7rem;
+        margin-top: 1rem;
+    }
+
+    .footer__info__wrapper {
+        margin-left: 0;
+        font-size: .8rem;
+        width: 14rem;
+    }
+
     .footer__social__link__wrapper {
-        margin-left: 40px;
+        margin-left: 0;
+        font-size: .4rem;
+    }
+
+    .footer__rights {
+        padding-left: 2.3rem;
     }
 }
 
@@ -296,6 +327,15 @@
 
     .hr {
         margin-top: 0;
+    }
+
+    .footer__middle {
+        flex-direction: column;
+        margin-right: 3.5rem;
+    }
+
+    .footer__info {
+        margin-left: 2rem;
     }
 
     .footer__link__container {
@@ -364,7 +404,7 @@
 
     .footer__social__link__wrapper {
         align-self: center;
-        margin-left: 0;
+        margin-left: 1.4rem;
     }
 
     .footer__rights {
