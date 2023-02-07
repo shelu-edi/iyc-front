@@ -168,15 +168,18 @@
 
 .story__read {
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 1.3rem;
   z-index: 50;
+  width: 4.5rem;
   position: absolute;
+  border-radius: .3rem;
 }
 
 .story__read a {
   text-decoration: none;
   color: #1964b7;
   z-index: 50;
+  margin-left: .6rem;
 }
 
 .story__hover {
@@ -201,7 +204,7 @@
   animation: slideRight 0.5s;
 }
 
-.story__card:hover .story__read a {
+.story__card:hover .story__read {
   background: #fff;
 }
 
