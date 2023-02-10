@@ -16,7 +16,7 @@
 .footer__top {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-evenly;*/
     /*height: 150px;*/
     /*width: 100%;*/
     /*padding-top: 20px;*/
@@ -30,7 +30,7 @@
 }
 
 .footer__top__img p {
-    margin: 3rem 0 0 .3rem;
+    margin: 2rem 0 0 .3rem;
     font-size: 1.3rem;
 }
 
@@ -45,60 +45,27 @@
     width: 107px;
 }
 
-.footer__newsletter {
-    display: none;
-    position: relative;
-    justify-content: center;
-    height: 66px;
-    width: 30%;
-    padding: 20px 0 0 40rem;
-    margin-top: 2rem;
-    margin-left: 16rem;
-}
-
-.footer__newsletter__desc {
-    font-size: 14px;
-    margin-top: 25px;
-    margin-right: 1rem;
-    width: 100%;
-}
-
-.footer__newsletter__submit {
-    background: #fff;
-    margin-top: 10px;
+.footer__newsletter__wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 2rem 5rem 0 0;
+    align-items: flex-end;
 }
 
-.footer__newsletter__submit input {
-    margin: 3px;
-    height: 30px;
-    display: inline-block;
-    border: none;
+.footer__newsletter__submit input{
+    border: 3px solid #fff;
     background: #1964b7;
-    color: #fff;
-}
-
-.footer__newsletter__submit input::placeholder {
-    color: #fff;
-    padding-left: 10px;
-}
-
-.footer__newsletter__submit input:focus {
-    border: none;
-    outline: none;
+    padding-left: 1rem;
+    height: 2.5rem;
 }
 
 .footer__newsletter__submit button {
     border: none;
-    outline: none;
-    color: #1964b7;
     background: #fff;
-    width: 60px;
-    margin-top: .1rem;
-    margin-bottom: 1rem;
+    color: #1964b7;
+    height: 2.5rem;
+    margin-left: -1rem;
 }
-
 
 .hr {
     margin-top: 50px;
