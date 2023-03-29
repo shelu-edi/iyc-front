@@ -15,6 +15,72 @@
 }
 
 
+/* Hero */
+
+.hero__div {
+  display: flex;
+}
+
+.hero__head {
+  display: none;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: #1964b7;
+  animation: fadeIn 1s;
+}
+
+.hero__info__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 1rem 0;
+  height: 100vh;
+  text-align: center;
+  background: url("../img/accreditation-1.jpg") no-repeat fixed;
+}
+
+/*.hero__info__container img {*/
+/*    width: 50%;*/
+/*    animation: fadeIn 1.5s;*/
+/*}*/
+
+.hero__info__container p {
+  /*background: rgba(25, 100, 183, .2);*/
+  text-align: center;
+  padding: 4rem;
+  font-size: 4rem;
+  margin-top: 3rem;
+  animation: fadeIn 2s;
+  color: #447BBF;
+  width: 100%;
+  align-self: center;
+  font-weight: 800;
+}
+
+/* Breadcrumb */
+.breadcrumb__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+  margin: 2rem 0 1rem 3rem;
+}
+
+.bread__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bread__link:hover {
+  text-decoration: none;
+  color: #1964b7;
+}
+
+.active {
+  color: #447BBF;
+}
+
 /* Accreditation */
 .acc__container {
   display: flex;
@@ -23,7 +89,7 @@
 }
 
 .acc__head {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #1964b7;
   text-align: center;
   animation: fadeIn 1s;
@@ -33,44 +99,27 @@
 .acc__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 2rem 0 0 5rem;
+  margin: 2rem 0 0 0;
   animation: fadeIn 1.5s;
 }
 
 .acc__card {
   width: 90%;
+  margin:0 1rem 1rem 1rem;
 }
 
 .acc__card img {
-  width: 90%;
-  height: 20rem;
+  width: 100%;
+  height: 18rem;
 }
 
-.acc__info {
-  display: none;
-  position: absolute;
-  align-items: center;
-  font-size: 1.5rem;
-  background: #1964b7;
-  width: 25.4%;
-  height: 20rem;
-  opacity: .7;
-}
-
-.acc__info p {
-  /*margin-left: 7rem;*/
+.acc__card p {
   text-align: center;
-  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+
 }
 
-#unep-info {
-  margin-left: 7rem;
-}
-
-.acc__card:hover .acc__info {
-  display: flex;
-  cursor: pointer;
-}
 
 /* Affiliations */
 .aff__container {
@@ -81,7 +130,7 @@
 }
 
 .aff__head {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #1964b7;
   text-align: center;
   animation: fadeIn 2s;
@@ -91,40 +140,27 @@
 .aff__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 2rem 0 0 5rem;
-  animation: fadeIn 2.5s;
+  margin: 2rem 0 0 0;
+  animation: fadeIn 1.5s;
 }
 
 .aff__card {
   width: 90%;
+  margin:0 1rem 1rem 1rem;
 }
 
 .aff__card img {
-  width: 90%;
-  height: 20rem;
+  width: 100%;
+  height: 18rem;
 }
 
-.aff__info {
-  display: none;
-  position: absolute;
-  align-items: center;
-  font-size: 1.5rem;
-  background: #1964b7;
-  width: 25.4%;
-  height: 20rem;
-  opacity: .7;
-}
-
-.aff__info p {
-  /*margin-left: 7rem;*/
+.aff__card p {
   text-align: center;
-  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+
 }
 
-.aff__card:hover .aff__info {
-  display: flex;
-  cursor: pointer;
-}
 
 /* Responsive */
 
