@@ -39,6 +39,7 @@
 
 .focus__info__top__head {
     font-size: 5rem;
+    font-weight: 800;
     color: #1964b7;
     animation: fadeIn 1s;
     text-align: center;
@@ -47,6 +48,7 @@
 
 .focus__info__div__top  p{
     padding: 3rem 0 0 0;
+    font-weight: 700;
     color: #fff;
     font-size: 1.5rem;
     text-align: center;
@@ -83,6 +85,7 @@
 }
 
 .focus__info__head {
+    font-weight: 700;
     font-size: 2rem;
     color: #1964b7;
     animation: fadeIn 2s;
@@ -92,11 +95,12 @@
 .focus__info__div p {
     padding: 3rem 0 0 0;
     font-size: 1rem;
-    text-align: center;
+    font-weight: 600;
+    text-align: justify;
     /*color: #1964b7;*/
     width: 90%;
     animation: fadeIn 2.5s;
-    margin: 0 .5rem;
+    margin: 0 0 0 2rem;
 }
 
 #education, #society, #cross-cutting {

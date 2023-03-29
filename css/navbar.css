@@ -34,7 +34,13 @@
     height: 35rem;
     width: 50rem;
     transition: all 0.5s ease-in, border-radius 1s;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.nav__link {
+    font-weight: 800;
 }
 
 .nav__link:hover + .nav__dropdown {
@@ -60,9 +66,10 @@
 
 .nav__dropdown__links a {
     font-size: 1rem;
+    font-weight: 700;
     padding: 1rem 0 0 1rem;
     text-decoration: none;
-    height: 4rem;
+    height: 100%;
     border-bottom: 1px solid #1964b7;
 }
 
@@ -78,6 +85,20 @@
     height: 500px;
     width: 30rem;
     padding: 3rem 1rem 0 1rem;
+}
+
+.nav__dropdown__info__desc {
+    margin-left: 2rem;
+}
+
+.nav__dropdown__info__desc img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.nav__dropdown__info__desc p{
+    font-weight: 700;
+    color: #000;
 }
 
 #iyc-brief {

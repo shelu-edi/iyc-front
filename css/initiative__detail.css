@@ -23,6 +23,7 @@
     width: 100%;
     justify-content: center;
     animation: fadeIn 1s;
+    overflow: hidden;
 }
 
 .carousel__item img {
@@ -40,6 +41,7 @@
     display: flex;
     font-size: 1.2rem;
     animation: fadeIn 1.5s;
+    overflow: hidden;
 }
 
 /* Responsive */

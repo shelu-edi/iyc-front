@@ -11,6 +11,122 @@
         opacity: 1;
     }
 }
+
+.filter__wrapper {
+    display: flex;
+    animation: fadeIn 1s;
+}
+
+.bootstrap-select.open > .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+    -ms-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+}
+.bootstrap-select > .dropdown-menu {
+    /*display: none;*/
+    opacity: 0;
+    max-height: 330px !important;
+    visibility: hidden;
+    overflow: hidden;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: scale(0.85) translateY(-5px);
+    -ms-transform: scale(0.85) translateY(-5px);
+    transform: scale(0.85) translateY(-5px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
+    opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+}
+
+.box {
+    width: 400px;
+    height: 120px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #447BBF;
+    font-weight: 600;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+
+.selectpicker {
+    margin: 1rem 0 0 0;
+    align-self: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1964b7;
+    color: #1964b7;
+}
+
+.selectpicker option {
+    text-align: center;
+}
+
+.bootstrap-select > .dropdown-toggle {
+    background: #edf2f5;
+    border: 0;
+    width: 100%;
+    display: block;
+    padding: 16px 15px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
+    color: #000;
+}
+.dropdown-toggle::after {
+    content: "";
+    position: absolute;
+    border-top: 0.5em solid;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0;
+    border-left: 0.5em solid transparent;
+    right: 10px;
+    top: 48%;
+}
+.dropdown-menu {
+    box-shadow: 0px 0px 15px rgba(60, 76, 150, 0.1);
+    -webkit-box-shadow: 0px 0px 15px rgba(60, 76, 150, 0.1);
+    -moz-box-shadow: 0px 0px 15px rgba(60, 76, 150, 0.1);
+    position: absolute;
+    left: 0;
+    background: #fff;
+    min-width: 100% !important;
+    width: 100% !important;
+}
+.bootstrap-select .dropdown-menu a {
+    display: block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
 /* Initiatives */
 .initiative__container {
     display: flex;
@@ -20,6 +136,7 @@
 
 .initiative__head {
     font-size: 2rem;
+    font-weight: 800;
     text-align: center;
     margin-top: 2rem;
     color: #1964b7;
@@ -37,6 +154,7 @@
     font-size: 1.5rem;
     margin-left: 3rem;
     animation: fadeIn 1.5s;
+    font-weight: 700;
 }
 
 .conference__wrapper{
@@ -61,6 +179,7 @@
     color: #fff;
     margin: 6rem 0 0 5rem;
     z-index: 30;
+    font-weight: 600;
 }
 
 .conference__card:hover .conference__card__title {
@@ -80,6 +199,7 @@
     font-size: 1.5rem;
     margin-left: 3rem;
     animation: fadeIn 2.5s;
+    font-weight: 700;
 }
 
 .international__initiatives__wrapper{

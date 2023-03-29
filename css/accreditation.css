@@ -26,6 +26,7 @@
   color: #1964b7;
   text-align: center;
   animation: fadeIn 1s;
+  font-weight: 800;
 }
 
 .acc__wrapper {
@@ -83,6 +84,7 @@
   color: #1964b7;
   text-align: center;
   animation: fadeIn 2s;
+  font-weight: 800;
 }
 
 .aff__wrapper {
