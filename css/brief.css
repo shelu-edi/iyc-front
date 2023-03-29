@@ -1,6 +1,7 @@
 * {
 @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
     font-family: "Trebuchet MS", sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Animations */
@@ -52,6 +53,29 @@
     color: #fff;
     width: 100%;
     align-self: center;
+}
+
+/* Breadcrumb */
+.breadcrumb__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    margin: 1rem 0 1rem 3rem;
+}
+
+.bread__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.bread__link:hover {
+    text-decoration: none;
+    color: #1964b7;
+}
+
+.active {
+    color: #447BBF;
 }
 
 /* Mid Container  */

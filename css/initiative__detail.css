@@ -34,6 +34,28 @@
     height: 85vh;
 }
 
+/* Breadcrumb */
+.breadcrumb__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 23rem;
+    margin: 2rem 0 1rem 3rem;
+}
+
+.bread__link {
+    color: #000;
+    font-weight: 600;
+}
+
+.bread__link:hover {
+    text-decoration: none;
+    color: #1964b7;
+}
+
+.active {
+    color: #447BBF;
+}
+
 
 .initiative__info__container {
     margin: 2rem;
