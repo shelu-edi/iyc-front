@@ -134,6 +134,225 @@
         </div>
     </div>
 
+    <!-- Top -->
+    <div class="admin__top">
+        <div class="admin__text"> Welcome Admin </div>
+        <!-- Replace below with a button -->
+        <div class="admin__logout">
+            <a href="index.html"> Logout </a>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <div class="head__wrapper">
+        <div class="head__top">
+            <div class="head__card active" id="news-head" onclick="OpenNews()">
+                News
+            </div>
+            <div class="head__card" id="initiative-head" onclick="OpenInit()">
+                Initiatives & Conferences
+            </div>
+        </div>
+        <div class="main__wrapper" id="news-wrapper">
+            <div class="main__wrapper__head">
+                Add a new item
+            </div>
+            <form action="" class="item__form" id="news-form">
+                <input type="text" class="item__head" placeholder="Heading">
+                <textarea class="item__desc" placeholder="Description"></textarea>
+                <input type="file" class="item__image">
+                <input type="submit" class="item__submit">
+            </form>
+            <div class="item__display__wrapper">
+                <div class="item__display__head">
+                    News Post History
+                </div>
+                <div class="edit__container" id="edit-form">
+                    <i class="fa fa-close" id="close-icon" onclick="CloseForm()"></i>
+                    <div class="edit__wrapper__head">
+                        Edit An Item
+                    </div>
+                    <form action="" class="edit__form" >
+                        <input type="text" class="edit__head" placeholder="Heading">
+                        <textarea class="edit__desc" placeholder="Description"></textarea>
+                        <input type="file" class="edit__image">
+                        <input type="submit" class="edit__submit" onclick="CloseForm()">
+                    </form>
+                </div>
+                <div class="item__display__container">
+                    <div class="item__card">
+                        <img src="../img/society.jpg" alt="">
+                        <div class="item__card__head">
+                            Heading
+                        </div>
+                        <div class="item__card__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eligendi....
+                        </div>
+                        <div class="item__card__updated">
+                            Updated- 30/3/23 6.09 pm
+                        </div>
+                        <div class="item__card__added">
+                            Added- 29/3/23 6.09 pm
+                        </div>
+                        <div class="btn__container">
+                            <div class="edit__btn" id="edit-btn" onclick="OpenForm()">
+                                <i class="fa fa-edit" ></i>
+                            </div>
+                            <div class="delete__btn" id="del-btn">
+                                <i class="fa fa-trash" ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__card">
+                        <img src="../img/society.jpg" alt="">
+                        <div class="item__card__head">
+                            Heading
+                        </div>
+                        <div class="item__card__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eligendi....
+                        </div>
+                        <div class="item__card__updated">
+                            Updated- 30/3/23 6.09 pm
+                        </div>
+                        <div class="item__card__added">
+                            Added- 29/3/23 6.09 pm
+                        </div>
+                        <div class="btn__container">
+                            <div class="edit__btn">
+                                <i class="fa fa-edit" ></i>
+                            </div>
+                            <div class="delete__btn">
+                                <i class="fa fa-trash" ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__card">
+                        <img src="../img/society.jpg" alt="">
+                        <div class="item__card__head">
+                            Heading
+                        </div>
+                        <div class="item__card__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eligendi....
+                        </div>
+                        <div class="item__card__updated">
+                            Updated- 30/3/23 6.09 pm
+                        </div>
+                        <div class="item__card__added">
+                            Added- 29/3/23 6.09 pm
+                        </div>
+                        <div class="btn__container">
+                            <div class="edit__btn">
+                                <i class="fa fa-edit" ></i>
+                            </div>
+                            <div class="delete__btn">
+                                <i class="fa fa-trash" ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__wrapper" id="initiative-wrapper">
+            <div class="main__wrapper__head">
+                Add a new item
+            </div>
+            <form action="" class="item__form" id="initiative-form">
+                <input type="text" class="item__head" placeholder="Heading">
+                <textarea class="item__desc" placeholder="Description"></textarea>
+                <input type="file" class="item__image">
+                <input type="submit" class="item__submit">
+            </form>
+            <div class="item__display__wrapper">
+                <div class="item__display__head">
+                    News Post History
+                </div>
+                <div class="edit__container" id="edit-form-initiative">
+                    <i class="fa fa-close" id="close-icon-initiative" onclick="CloseForm()"></i>
+                    <div class="edit__wrapper__head">
+                        Edit An Item
+                    </div>
+                    <form action="" class="edit__form" >
+                        <input type="text" class="edit__head" placeholder="Heading">
+                        <textarea class="edit__desc" placeholder="Description"></textarea>
+                        <input type="file" class="edit__image">
+                        <input type="submit" class="edit__submit" onclick="CloseForm()">
+                    </form>
+                </div>
+                <div class="item__display__container">
+                    <div class="item__card">
+                        <img src="../img/society.jpg" alt="">
+                        <div class="item__card__head">
+                            Heading
+                        </div>
+                        <div class="item__card__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eligendi....
+                        </div>
+                        <div class="item__card__updated">
+                            Updated- 30/3/23 6.09 pm
+                        </div>
+                        <div class="item__card__added">
+                            Added- 29/3/23 6.09 pm
+                        </div>
+                        <div class="btn__container">
+                            <div class="edit__btn" id="edit-btn-initiative" onclick="OpenForm()">
+                                <i class="fa fa-edit" ></i>
+                            </div>
+                            <div class="delete__btn" id="del-btn-initiative">
+                                <i class="fa fa-trash" ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__card">
+                        <img src="../img/society.jpg" alt="">
+                        <div class="item__card__head">
+                            Heading
+                        </div>
+                        <div class="item__card__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eligendi....
+                        </div>
+                        <div class="item__card__updated">
+                            Updated- 30/3/23 6.09 pm
+                        </div>
+                        <div class="item__card__added">
+                            Added- 29/3/23 6.09 pm
+                        </div>
+                        <div class="btn__container">
+                            <div class="edit__btn">
+                                <i class="fa fa-edit" ></i>
+                            </div>
+                            <div class="delete__btn">
+                                <i class="fa fa-trash" ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item__card">
+                        <img src="../img/society.jpg" alt="">
+                        <div class="item__card__head">
+                            Heading
+                        </div>
+                        <div class="item__card__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eligendi....
+                        </div>
+                        <div class="item__card__updated">
+                            Updated- 30/3/23 6.09 pm
+                        </div>
+                        <div class="item__card__added">
+                            Added- 29/3/23 6.09 pm
+                        </div>
+                        <div class="btn__container">
+                            <div class="edit__btn">
+                                <i class="fa fa-edit" ></i>
+                            </div>
+                            <div class="delete__btn">
+                                <i class="fa fa-trash" ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <div class="footer__container">
         <div class="footer__wrapper">
@@ -242,7 +461,7 @@
         </div>
     </div>
 
-    <script src="../js/index.js"></script>
+    <script src="../js/admin.js"></script>
     <script src="../js/navbar.js"></script>
     <script src="../js/footer.js"></script>
 

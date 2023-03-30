@@ -4,12 +4,14 @@
     scroll-behavior: smooth;
 }
 
-/* Top Div */
-.top__div {
-    display: flex;
-    flex-direction: column;
-    /*pointer-events: none;*/
-    /*border: 1px solid #000;*/
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Login */
@@ -25,6 +27,7 @@
     font-weight: 800;
     color: #1964b7;
     text-transform: uppercase;
+    animation: fadeIn 1s;
 }
 
 .admin__login {
@@ -33,6 +36,14 @@
     width: 30%;
     align-self: center;
     margin-top: 1rem;
+}
+
+.login__email {
+    animation: fadeIn 1.5s;
+}
+
+.login__password {
+    animation: fadeIn 2s;
 }
 
 .login__email, .login__password {
@@ -54,6 +65,7 @@
 
 .login__submit {
     background: #1964b7;
+    animation: fadeIn 2.5s;
 }
 
 .login__submit a {
