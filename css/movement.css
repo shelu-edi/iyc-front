@@ -66,13 +66,35 @@
 .movement__container {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 100%;
 }
 
 .movement__head {
     font-size: 3rem;
     text-align: center;
     margin: 3rem 0;
+}
+
+.contact__info {
+    text-align: center;
+    font-size: 2rem;
+    color: #447BBF;
+    font-weight: 700;
+}
+
+.contact__address {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contact__mail {
+    color: #1964b7;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 /* Contact */
@@ -85,8 +107,9 @@
 
 .contact__head {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 3rem 0;
+    font-weight: 700;
 }
 
 .contact__form {
@@ -102,7 +125,15 @@
     border: none;
     border-bottom: 2px solid #1964b7;
     margin: 1rem 0;
+    font-weight: 600;
+    color: #1964b7;
 }
+
+.contact__input::-webkit-input-placeholder {
+    color: #1964b7;
+    /*font-weight: 600;*/
+}
+
 
 .contact__input__message {
     outline: none;
@@ -111,6 +142,13 @@
     margin: 1rem 0;
     height: 10rem;
     resize: none;
+    font-weight: 600;
+    color: #1964b7;
+}
+
+.contact__input__message::-webkit-input-placeholder {
+    color: #1964b7;
+    /*font-weight: 600;*/
 }
 
 .contact__submit {
@@ -131,6 +169,9 @@
     border: 1px solid #1964b7;
     transition: all .3s ease-in-out;
 }
+
+
+
 
 /* Responsive */
 @media screen and (max-width: 960px) {

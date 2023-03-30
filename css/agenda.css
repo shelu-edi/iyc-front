@@ -308,7 +308,8 @@
   object-fit: cover;
 }
 
-.sdg__details p {
+.sdg__details a {
+  text-decoration: none;
   color: #fff;
   position: absolute;
   font-size: 1.5rem;

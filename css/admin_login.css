@@ -1,0 +1,64 @@
+* {
+@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+    font-family: "Trebuchet MS", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Top Div */
+.top__div {
+    display: flex;
+    flex-direction: column;
+    /*pointer-events: none;*/
+    /*border: 1px solid #000;*/
+}
+
+/* Login */
+.login__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login__head {
+    font-size: 2rem;
+    margin-top: 10rem;
+    font-weight: 800;
+    color: #1964b7;
+    text-transform: uppercase;
+}
+
+.admin__login {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.login__email, .login__password {
+    border: none;
+    border-bottom: 2px solid #1964b7;
+    margin: 1rem 0;
+    font-weight: 600;
+    color: #1964b7;
+}
+
+.login__email:focus, .login__password:focus {
+    outline: none;
+}
+
+.login__email::-webkit-input-placeholder, .login__password::-webkit-input-placeholder {
+    color: #1964b7;
+    /*font-weight: 600;*/
+}
+
+.login__submit {
+    background: #1964b7;
+}
+
+.login__submit a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
