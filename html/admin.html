@@ -179,6 +179,13 @@
                         <input type="submit" class="edit__submit" onclick="CloseForm()">
                     </form>
                 </div>
+                <div class="delete__container" id="del-container" >
+                    <p class="">Do You Want To Delete This Item</p>
+                    <div class="button__container">
+                        <button class="yes__btn" onclick="CloseDel()">Yes</button>
+                        <button class="no__btn" onclick="CloseDel()"> No </button>
+                    </div>
+                </div>
                 <div class="item__display__container">
                     <div class="item__card">
                         <img src="../img/society.jpg" alt="">
@@ -198,7 +205,7 @@
                             <div class="edit__btn" id="edit-btn" onclick="OpenForm()">
                                 <i class="fa fa-edit" ></i>
                             </div>
-                            <div class="delete__btn" id="del-btn">
+                            <div class="delete__btn" id="del-btn" onclick="OpenDel()">
                                 <i class="fa fa-trash" ></i>
                             </div>
                         </div>
@@ -264,10 +271,10 @@
             </form>
             <div class="item__display__wrapper">
                 <div class="item__display__head">
-                    News Post History
+                    Initiative Post History
                 </div>
                 <div class="edit__container" id="edit-form-initiative">
-                    <i class="fa fa-close" id="close-icon-initiative" onclick="CloseForm()"></i>
+                    <i class="fa fa-close" id="close-icon-initiative" onclick="InitCloseForm()"></i>
                     <div class="edit__wrapper__head">
                         Edit An Item
                     </div>
@@ -275,8 +282,15 @@
                         <input type="text" class="edit__head" placeholder="Heading">
                         <textarea class="edit__desc" placeholder="Description"></textarea>
                         <input type="file" class="edit__image">
-                        <input type="submit" class="edit__submit" onclick="CloseForm()">
+                        <input type="submit" class="edit__submit" onclick="InitCloseForm()">
                     </form>
+                </div>
+                <div class="delete__container" id="del-init-container" >
+                    <p class="">Do You Want To Delete This Item</p>
+                    <div class="button__container">
+                        <button class="yes__btn" onclick="InitCloseDel()">Yes</button>
+                        <button class="no__btn" onclick="InitCloseDel()"> No </button>
+                    </div>
                 </div>
                 <div class="item__display__container">
                     <div class="item__card">
@@ -294,11 +308,11 @@
                             Added- 29/3/23 6.09 pm
                         </div>
                         <div class="btn__container">
-                            <div class="edit__btn" id="edit-btn-initiative" onclick="OpenForm()">
+                            <div class="edit__btn" id="edit-btn-initiative" onclick="InitOpenForm()">
                                 <i class="fa fa-edit" ></i>
                             </div>
                             <div class="delete__btn" id="del-btn-initiative">
-                                <i class="fa fa-trash" ></i>
+                                <i class="fa fa-trash" onclick="InitOpenDel()"></i>
                             </div>
                         </div>
                     </div>

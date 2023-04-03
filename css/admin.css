@@ -214,6 +214,8 @@
     cursor: pointer;
 }
 
+/* Edit */
+
 .edit__container {
     display: none;
     flex-direction: column;
@@ -289,10 +291,84 @@
     font-weight: 600;
 }
 
+/* Delete */
+.delete__container {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem 0;
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+}
+
+.delete__container p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.button__container {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.yes__btn {
+    background: red;
+    margin-right: 1rem;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    width: 3rem;
+}
+
+.yes__btn:focus, .no__btn:focus {
+    outline: none;
+}
+
+.yes__btn:hover, .no__btn:hover {
+    cursor: pointer;
+}
+
+.no__btn {
+    background: #1964b7;
+    margin-right: 1rem;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    width: 3rem;
+}
+
+
+
 /* Initiative */
 #initiative-wrapper {
     display: none;
 }
+
+/* Responsive */
+@media screen and (max-width: 960px) {
+    .main__wrapper__head {
+        font-size: 1.5rem;
+    }
+
+    .item__form {
+        width: 50%;
+    }
+
+    .item__card img {
+        height: 10rem;
+    }
+
+    .edit__container {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 480px) {}
 
 
 

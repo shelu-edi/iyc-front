@@ -75,6 +75,10 @@
     margin-bottom: .2rem;
 }
 
+.footer__newsletter__submit button:focus {
+    outline: none;
+}
+
 .footer__newsletter__submit input:focus {
     outline: 0;
 }
