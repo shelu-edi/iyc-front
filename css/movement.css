@@ -78,22 +78,90 @@
 .contact__info {
     text-align: center;
     font-size: 2rem;
-    color: #447BBF;
+    /*color: #447BBF;*/
     font-weight: 700;
+    margin-top: 2rem;
+}
+
+.add__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.add__container img {
+    width: 45%;
+    height: 25rem;
+    margin-right: 10rem;
 }
 
 .contact__address {
-    text-align: center;
-    margin-top: 2rem;
+    text-align: justify;
+    margin-top: 7rem;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .contact__mail {
     color: #1964b7;
-    text-align: center;
-    margin-top: 1rem;
+    text-align: justify;
+    margin-top: 2rem;
     font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/*Appointment*/
+.app__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.app__wrapper__1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.app__container img {
+    width: 45%;
+    height: 25rem;
+}
+
+.app__head {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.app__desc {
+    text-align: center;
+    color: #1964b7;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 8rem;
+}
+
+.app__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__book {
+    margin-top: 1rem;
+    background: #1964b7;
+    width: 6rem;
+    height: 2rem;
+    padding-top: .8rem;
+    border-radius: .3rem;
+}
+
+.app__wrapper a {
+    text-decoration: none;
+    text-align: center;
+    margin: 2rem 0 0 .8rem;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -152,6 +220,7 @@
 }
 
 .contact__submit {
+    margin-top: 1rem;
     align-self: center;
     outline: none;
     border: none;
