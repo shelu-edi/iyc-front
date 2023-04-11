@@ -393,7 +393,7 @@
 }
 
 .partnership__desc {
-  height: 100px;
+  height: 100%;
   font-weight: 500;
 }
 
@@ -726,6 +726,10 @@ label span {
   .hero__top {
     font-size: 3.5rem;
   }
+  .featured__card {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+  }
 
   .sdg__carousel__wrapper {
     margin-bottom: 20px;
@@ -786,7 +790,7 @@ label span {
   }
 
   .partnership__join {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .project__filters {
@@ -879,6 +883,10 @@ label span {
   .featured__mid {
     font-size: 12px;
     padding-top: 10px;
+  }
+
+  .featured__wrapper {
+    grid-template-columns: 1fr;
   }
 
   .sdg__carousel__wrapper {

@@ -20,7 +20,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   background: url("../img/agenda-1.jpg") no-repeat fixed;
-  height: 100vh;
+  height: 82vh;
 }
 
 .hero__container img {
@@ -53,6 +53,7 @@
   justify-content: space-between;
   width: 12rem;
   margin: 2rem 0 1rem 3rem;
+  animation: fadeIn 2s;
 }
 
 .bread__link {
@@ -354,7 +355,7 @@
     font-size: 0.3rem;
     width: 40rem;
     flex-direction: column;
-    height: 20rem;
+    height: 35rem;
     padding-top: 1rem;
   }
 
@@ -364,13 +365,17 @@
     padding-left: 0;
   }
 
+  .sdg__container a {
+    font-size: 1.2rem;
+  }
+
   #sdg-wellbeing-head , #sdg-education-head, #sdg-gender-head, #sdg-water-head, #sdg-energy-head, #sdg-inequalities-head,
   #sdg-climate-head, #sdg-life-below-head, #sdg-life-land-head, #sdg-partnerships-head
   {
     margin-left: 0;
   }
 
-  #sdg-inequalities-details p, #sdg-life-land-details p, #sdg-life-below-details p{
+  #sdg-inequalities-details a, #sdg-life-land-details a, #sdg-life-below-details a{
     font-size: 1rem;
   }
 
@@ -430,8 +435,8 @@
     font-size: 1.3rem;
   }
 
-  .sdg__container p {
-    font-size: .7rem;
+  .sdg__container a {
+    font-size: 1rem;
   }
 
   .sdg__wrapper {
@@ -443,8 +448,8 @@
     margin-left: 0;
   }
 
-  #sdg-inequalities-details p, #sdg-communities-details p, #sdg-life-below-details p,#sdg-life-land-details p {
-    font-size: .7rem;
+  #sdg-inequalities-details a, #sdg-communities-details a, #sdg-life-below-details a,#sdg-life-land-details a {
+    font-size: 1rem;
   }
 }
 

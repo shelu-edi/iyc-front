@@ -3,3 +3,71 @@
   font-family: "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
 }
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Hero */
+.hero__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 1rem 0;
+  height: 83vh;
+  text-align: center;
+  background: url("../img/country-1.jpg") no-repeat fixed;
+}
+
+.hero__container h1 {
+  text-align: center;
+  padding: 4rem;
+  font-size: 5rem;
+  margin-top: 3rem;
+  animation: fadeIn 2s;
+  color: #1964b7;
+  width: 100%;
+  align-self: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+
+/* Breadcrumb */
+.breadcrumb__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 13rem;
+  margin: 1rem 0 1rem 3rem;
+  animation: fadeIn 2s;
+}
+
+.breadcrumb__wrapper a {
+  text-decoration: none;
+}
+
+.bread__link {
+  color: #000;
+  font-weight: 600;
+}
+
+.bread__link:hover {
+  text-decoration: none;
+  color: #1964b7;
+}
+
+.active {
+  color: #447BBF;
+}
+
+/* Info */
+.info__wrapper {
+  font-size: 1.2rem;
+  margin: 1rem 2rem;
+  animation: fadeIn 3s;
+}

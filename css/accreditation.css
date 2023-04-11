@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: row;
   margin: 0 0 1rem 0;
-  height: 100vh;
+  height: 82vh;
   text-align: center;
   background: url("../img/accreditation-1.jpg") no-repeat fixed;
 }
@@ -63,6 +63,7 @@
   justify-content: space-between;
   width: 18rem;
   margin: 2rem 0 1rem 3rem;
+  animation: fadeIn 2s;
 }
 
 .bread__link {

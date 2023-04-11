@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   background: url("../img/sdg/poverty.jpg") no-repeat fixed;
-  height: 100vh;
+  height: 82vh;
   background-size: cover;
   margin-bottom: 2rem;
 }

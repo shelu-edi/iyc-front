@@ -32,7 +32,7 @@
 .focus__wrapper__top{
     display: flex;
     margin: 0;
-    height: 100vh;
+    height: 82vh;
     justify-content: space-around;
     background: url("../img/focus-1.jpg") no-repeat fixed;
     background-size: cover;
@@ -48,6 +48,7 @@
 }
 
 .focus__info__div__top  p{
+    display: none;
     padding: 3rem 0 0 0;
     font-weight: 700;
     color: #fff;
@@ -64,6 +65,7 @@
     justify-content: space-between;
     width: 10rem;
     margin: 2rem 0 1rem 3rem;
+    animation: fadeIn 2s;
 }
 
 .bread__link {
