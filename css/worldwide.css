@@ -4,6 +4,44 @@
   scroll-behavior: smooth;
 }
 
+/* Animations */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+
+/* Breadcrumb */
+.breadcrumb__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  margin: 1rem 0 1rem 3rem;
+}
+
+.bread__link {
+  color: #000;
+  font-weight: 600;
+}
+
+.breadcrumb__wrapper a {
+  text-decoration: none;
+}
+
+.bread__link:hover {
+  text-decoration: none;
+  color: #1964b7;
+}
+
+.active {
+  color: #447BBF;
+}
+
+
 /* Hero */
 
 .hero__container {
@@ -44,13 +82,8 @@
 }
 
 /* Carousel */
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 7));
-  }
+.carousel__wrapper {
+  margin: 1rem 0;
 }
 
 .slider {
@@ -99,6 +132,11 @@
 .ini__wrapper {
   display: flex;
   margin: 2rem 0;
+}
+
+.ini__info {
+  font-size: 1.2rem;
+  margin: 1rem;
 }
 
 /* Country */
