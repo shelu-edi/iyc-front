@@ -1,129 +1,185 @@
 * {
-    @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
-    font-family: "Trebuchet MS", sans-serif;
-    scroll-behavior: smooth;
+  @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+  font-family: "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Animations */
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Hero */
 .hero__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background: url("../img/sdg/poverty.jpg") no-repeat fixed;
-    height: 100vh;
-    background-size: cover;
-    margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: url("../img/sdg/poverty.jpg") no-repeat fixed;
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 2rem;
 }
 
 .hero__container h1 {
-    margin: 1rem 0 0 0;
-    font-size: 6rem;
-    color: #fff;
-    text-align: center;
-    animation: fadeIn 1s;
+  margin: 1rem 0 0 0;
+  font-size: 6rem;
+  color: #fff;
+  text-align: center;
+  animation: fadeIn 1s;
 }
 
 .hero__container p {
-    text-align: justify;
-    color: #fff;
-    font-size: 1.2rem;
-    margin: 0 3rem;
-    animation: fadeIn 1.5s;
-
+  text-align: justify;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 3rem;
+  animation: fadeIn 1.5s;
 }
 
 /* Breadcrumb */
 .breadcrumb__wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 18rem;
-    margin: 1rem 0 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+  margin: 1rem 0 2rem 3rem;
 }
 
 .bread__link {
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
 }
 
 .bread__link:hover {
-    text-decoration: none;
-    color: #1964b7;
+  text-decoration: none;
+  color: #1964b7;
 }
 
 .active {
-    color: #447BBF;
+  color: #447bbf;
 }
 
 .sdg__info__wrapper {
-    font-size: 1.2rem;
-    margin: 2rem 1rem;
-    height: 100%;
+  font-size: 1.2rem;
+  margin: 2rem 1rem;
+  height: 100%;
 }
 
 /* Achievement */
 .achieve__container {
-    display: flex;
-    margin-bottom: 2rem;;
+  display: flex;
+  margin-bottom: 2rem;
 }
 
 .achieve__card {
-    background: #1964b7;
-    color: #fff;
-    margin: 0 1rem;
-    height: 10rem;
+  background: #1964b7;
+  color: #fff;
+  margin: 0 1rem;
+  height: 10rem;
 }
 
 .achieve__card__number {
-    font-weight: 700;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .achieve__card__details {
-    margin: 1rem 2rem 0 2rem;;
-    text-align: center;
+  margin: 1rem 2rem 0 2rem;
+  text-align: center;
+  font-weight: 600;
 }
 
 .achieve__card:hover {
-    cursor: pointer;
-    background: #fff;
-    color: #1964b7;
-    transition: all 0.5s ease;
+  cursor: pointer;
+  background: #fff;
+  color: #1964b7;
+  transition: all 0.5s ease;
 }
 
 /* Goals */
 .goal__container {
-    display: flex;
-    flex-direction: column;;
+  display: flex;
+  flex-direction: column;
 }
 
 .goal__title {
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 2rem;
-    font-weight: 800;
-    color: #447BBF;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+  font-weight: 800;
+  color: #447bbf;
 }
 
 .goal__list {
-    align-self: center;
-    margin: 2rem;
+  align-self: center;
+  margin: 2rem;
 }
 
 .goal__list li {
-    font-size: 1.1rem;
-    margin: 1rem 0;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 960px) {
+  .hero__container {
+    width: 100%;
+  }
+
+  .achieve__container {
+    overflow-x: scroll;
+  }
+
+  .achieve__card:hover {
+      color: #fff;
+      background: #1964b7;
+  }
+
+  .achieve__card__details {
+      margin: 1rem 3rem 0 3rem;
+  }
+
+  .achieve__card__number {
+    font-size: 1.5rem;
+  }
+
+  .goal__title {
+      font-size: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+    .hero__container h1 {
+        font-size: 2rem;
+    }
+
+    .sdg__info__wrapper {
+        font-size: .8rem;
+    }
+
+    .achieve__card {
+        height: 15rem;
+    }
+
+    .achieve__card__number {
+        font-size: 1rem;
+    }
+
+    .achieve__card__details {
+        font-size: .8rem;
+    }
+
+    .goal__list li {
+        font-size: .8rem;
+    }
+
 }
