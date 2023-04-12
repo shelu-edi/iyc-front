@@ -168,6 +168,10 @@
 /* Responsive */
 
 @media screen and (max-width: 960px)  {
+  .hero__info__container p {
+    font-size: 3rem;
+  }
+
   .aff__info {
     display: none;
   }
@@ -175,7 +179,47 @@
   #unep-info {
     margin-left: 0;
   }
+
+  .acc__card img, .aff__card img {
+    margin-left: 5rem;
+  }
+
+  .acc__wrapper, .aff__wrapper {
+    grid-template-columns: 1fr 1fr;
+    overflow-x: hidden;
+  }
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+  .hero__info__container {
+    width: 100%;
+    height: 80vh;
+    overflow-x: hidden;
+  }
+
+  .hero__info__container p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .acc__head, .aff__head {
+    font-size: 1.5rem;
+  }
+
+  .acc__card, .aff__card {
+    margin-left: 0;
+  }
+
+  .acc__card p, .aff__card p {
+    font-size: .8rem;
+  }
+
+  .acc__card img, .aff__card img {
+    margin-left: 6rem;
+  }
+
+  .acc__wrapper, .aff__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
 
