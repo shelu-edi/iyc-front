@@ -49,11 +49,14 @@
 .conference__head {
     margin: 3rem 0 2rem 3rem;
     font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .conference__desc {
     font-size: 1rem;
     margin: 2rem;
+    font-weight: 600;
     text-align: justify;
 }
 

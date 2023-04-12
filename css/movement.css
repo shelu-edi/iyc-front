@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 83vh;
     background: url("../img/movement.jpg") no-repeat fixed;
 }
 
@@ -45,6 +45,7 @@
     justify-content: space-between;
     width: 11rem;
     margin: 1rem 0 1rem 3rem;
+    animation: fadeIn 2s;
 }
 
 .bread__link {
@@ -257,9 +258,57 @@
     .movement__head, .contact__head {
         font-size: 2rem;
     }
+
+    .add__container {
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .add__container img {
+        width: 122%;
+    }
+
+    .add__info {
+        width: 100%;
+        text-align: justify;
+        margin-left: 3rem;
+    }
+
+    .contact__address {
+        margin-top: 4rem;
+    }
+
+    .app__wrapper__1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__wrapper__1 img {
+        width: 100%;
+    }
+
+    .app__desc {
+        margin-top: 3rem;
+    }
+
+    .app__book {
+        margin-left: 6rem;
+    }
+
+    .contact__form {
+        width: 50%;
+    }
+
+
 }
 
 @media screen and (max-width: 480px) {
+
+    .hero__container {
+        height: 82vh;
+    }
+
     .hero__head {
         font-size: 2rem;
     }
@@ -268,9 +317,49 @@
         font-size: 1.2rem;
     }
 
-    .contact__form {
-        width: 50%;
+    .add__container {
+        width: 100%;
     }
+
+    .contact__info {
+        font-size: 1.5rem;
+    }
+
+    .add__container img {
+        width: 150%;
+        height: 20rem;
+    }
+
+    .contact__address {
+        font-size: 1rem;
+        width: 100rem;
+    }
+
+    .app__head {
+        font-size: 1.5rem;
+    }
+
+    .app__wrapper__1 img {
+        height: 20rem;
+    }
+
+    .app__book {
+        margin-left: .7rem;
+    }
+
+    .app__desc {
+        font-size: 1rem;
+    }
+
+    .contact__head {
+        font-size: 1.5rem;
+    }
+
+    .contact__form {
+        width: 60%;
+    }
+
+
 }
 
 

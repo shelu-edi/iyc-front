@@ -105,13 +105,14 @@
 }
 
 .acc__card {
-  width: 90%;
+  width: 100%;
   margin:0 1rem 1rem 1rem;
 }
 
 .acc__card img {
-  width: 100%;
-  height: 18rem;
+  width: 10rem;
+  height: 8rem;
+  margin-left: 10rem;
 }
 
 .acc__card p {
@@ -151,8 +152,9 @@
 }
 
 .aff__card img {
-  width: 100%;
-  height: 18rem;
+  width: 10rem;
+  height: 8rem;
+  margin-left: 10rem;
 }
 
 .aff__card p {

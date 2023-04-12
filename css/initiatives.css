@@ -188,19 +188,20 @@ h2 {
 }
 
 .conference__card {
-    width: 90%;
+    width: 100%;
 }
 
 .conference__card img {
-    width: 100%;
+    width: 90%;
 }
 
 .conference__card__title {
     position: absolute;
+    text-align: justify;
     display: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
-    margin: 6rem 0 0 5rem;
+    margin: 6rem 0 0 1rem;
     z-index: 30;
     font-weight: 600;
 }
