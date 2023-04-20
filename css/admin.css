@@ -130,6 +130,16 @@
     border: none;
 }
 
+.box {
+    margin-top: 1rem;
+}
+
+.box p {
+    color: #1964b7;
+    font-weight: 600;
+}
+
+
 .item__submit {
     margin-top: 2rem;
     outline: none;
@@ -395,6 +405,17 @@
 
     .item__form {
         /*margin-left: 3rem;*/
+        width: 70%;
+    }
+
+    .box {
+        font-size: .8rem;
+    }
+
+
+    #sdg-add {
+        width: 10rem;
+        font-size: .8rem;
     }
 
     .item__display__head {

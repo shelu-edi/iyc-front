@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../img/iyc-logo-1.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/carousel.css">
+    <link rel="stylesheet" href="../css/scam.css">
+
+    <title>IYC | Scam Alert </title>
+</head>
+<body>
+
+    <!-- NavBar -->
+    <div class="nav__container">
+        <div class="mobile__menu" >
+            <div class="mobile__menu__bgr" id="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="mobile__menu__dropdown">
+                <div class="mobile__drop__link__wrapper">
+                    <div  class="mobile__drop__link"> Who We Are <i class="fa fa-caret-down"></i></div>
+                    <div id="who-we-are-mobile">
+                        <a href="brief.html"> IYC in Brief </a>
+                        <a href="focus.html"> Our Focus </a>
+                        <a href="team.html"> Our Team</a>
+                        <a href="worldwide.html"> IYC Worldwide </a>
+                        <a href="country-program.html"> IYC Country Program </a>
+                        <a href="accreditation.html" > Accreditation and Affiliations </a>
+                        <a href="agenda.html"> 2030 Agenda & SDGs </a>
+                    </div>
+                </div>
+                <a href="" class="mobile__drop__link"> Our Initiatives </a>
+                <a href="" class="mobile__drop__link"> Our Initiatives </a>
+            </div>
+            <a href="index.html" class="mobile__img"><img src="../img/iyc-logo-1.png" alt=""></a>
+            <a href="search.html"><i class="fa fa-search" ></i></a>
+        </div>
+        <div class="nav__wrapper">
+            <div class="nav__link__wrapper" id="who-we-are">
+                <a class="nav__link" href="#">
+                    Who We Are
+                </a>
+                <div class="nav__dropdown">
+                    <div class="nav__dropdown__links">
+                        <a href="brief.html" onmouseover="Brief()"> IYC in Brief </a>
+                        <a href="focus.html" onmouseover="Focus()"> Our Focus </a>
+                        <a href="team.html" onmouseover="Team()"> Our Team </a>
+                        <a href="worldwide.html" onmouseover="Worldwide()"> IYC Worldwide </a>
+                        <a href="country-program.html" onmouseover="Country()"> IYC Country Program </a>
+                        <a href="accreditation.html" onmouseover="Affiliations()"> Accreditation and Affiliations </a>
+                        <a href="agenda.html" onmouseover="Agenda()"> 2030 Agenda & SDGs </a>
+                    </div>
+                    <div class="nav__dropdown__info">
+                        <div class="nav__dropdown__info__desc" id="iyc-brief">
+                            <img src="../img/crew-place-2.jpg" alt="">
+                            <p> As the global platform for inclusive and sustainable youth development, International
+                                Youth Council (IYC) works in all United Nations (UN) members countries and territories
+                                to ensure young people's voices are heard, appreciated, and acted upon. </p>
+                        </div>
+                        <div class="nav__dropdown__info__desc" id="iyc-focus">
+                            <img src="../img/focus-1.jpg" alt="">
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eligendi minima
+                                tempora ut vel. Accusantium aliquam officia officiis saepe vero! </p>
+                        </div>
+                        <div class="nav__dropdown__info__desc" id="iyc-team">
+                            <img src="../img/team-2.jpeg" alt="">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur deleniti
+                                earum eligendi eum laudantium nemo nostrum odio quos sequi?
+                            </p>
+                        </div>
+                        <div class="nav__dropdown__info__desc" id="iyc-worldwide">
+                            <img src="../img/worldwide.jpg" alt="">
+                            <p>
+                                The International Youth Council has been able to effectively convey and distribute its
+                                services to UN member countries in multiple continents all over the world through the
+                                initiation of IYC chapters around the worldwide </p>
+                        </div>
+                        <div class="nav__dropdown__info__desc" id="iyc-country">
+                            <img src="../img/country-1.jpg" alt="">
+                            <p>
+                                The Country Program (CP) is IYC's innovative model for accelerating inclusive and
+                                sustainable youth development in UN Member States </p>
+                        </div>
+                        <div class="nav__dropdown__info__desc" id="iyc-affiliations">
+                            <img src="../img/accreditation-1.jpg" alt="">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequatur
+                                corporis deleniti dignissimos doloremque earum eum nostrum porro rem ut!
+                            </p>
+                        </div>
+                        <div class="nav__dropdown__info__desc" id="iyc-agenda">
+                            <img src="../img/agenda-1.jpg" alt="">
+                            <p>
+                                This Agenda is a plan of action for people, the planet, and prosperity. It also seeks
+                                to strengthen universal peace in larger freedom.s </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="nav__link" href="initiatives.html">
+                Our Initiatives
+            </a>
+            <a class="nav__link__img" href="index.html">
+                <!--                <img src="../img/iyc-logo-1.png" alt="iyc-logo">-->
+            </a>
+            <a class="nav__link" href="movement.html">
+                Get Involved
+            </a>
+            <div class="nav__link">
+                <a href="search.html">
+                    <i class="fa fa-search" ></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scam -->
+    <div class="scam__head"> Scam Alert </div>
+
+    <div class="scam__head__2"> How To Protect Yourself </div>
+
+    <p class="scam__para__1"> This is to alert the International Youth Council (IYC) staff members and the wider
+        public of the risks of being targeted by operators of international scam schemes
+        commonly known as “4-1-9” advanced fee scams.
+
+        <br><br>
+
+        While there are many versions of this general scheme, currently these scammers
+        are targeting IYC in several ways. Note that these examples are not exhaustive.
+    </p>
+
+    <!-- List -->
+    <ol class="scam__list__1">
+        <li>
+            By purporting to offer you a highly paid job with IYC where a request is
+            made to pay a fee when applying for the post and for “induction and visa
+            processing” or “to pay for travel” once the person is notified of being
+            selected for the post.
+            <br><br>
+            <b> NEVER requires anyone to pay any fee either when applying for any
+                advertised position or after being selected for the post.</b>
+        </li>
+        <li>
+            In order to secure a purchase order or a consultant or expert contract with
+            IYC, you are requested to pay a fee to an outside party.
+            <br><br>
+            <b>IYC does NOT charge a fee at any stage of its procurement process
+            (supplier registration, bids submission or other fee), or for recruiting a
+                consultant or an expert.</b>
+        </li>
+        <li>
+            A party promises that you will receive funding from IYC for your project or it
+            ensures that IYC will undertake your project – asking you for your personal
+            details. Once you reply, you are requested to pay a fee.
+            <br><br>
+            <b>IYC does NOT charge a fee at any stage of a project.</b>
+        </li>
+        <li>
+            An e-mail is sent promising you a percentage of a very large amount of
+            money for the use of your bank account. Such e-mails often use the name of
+            former or current Executive Director or their relatives as senders. Once you
+            respond, a request for money is made to help pay 'officials' in the release of
+            the money to your account.
+        </li>
+        <li>
+            Consultants, allegedly appointed by IYC, indicate that you have been
+            recommended to receive a sizeable grant in order to set up a small-scale
+            business at your location and to employ some people, with public funds
+            supposedly set aside for this purpose. The consultants request you to
+            provide your name and address together with your preferred bank in the
+            country of your choice for them to open an account in your name and
+            transfer the funds.
+        </li>
+    </ol>
+
+    <p class="scam__para__2">
+        IYC does NOT engage in this type of activity.
+    </p>
+
+    <p class="scam__para__1" >
+        In various locations around the world, IYC staff members and the public have
+        recently received such “invitations” from operators purporting to be working for
+        IYC.
+        <br><br>
+        The schemes may consist of fraudulent messages sent either via any means such as
+        email, social media, phone, SMS, websites, fax, regular mail, which appear as
+        various proposals from people purporting to be officials of the IYC.
+        <br><br>
+        The correspondence and other documents, e-mails addresses and web sites may be
+        made to look like they originate with the IYC. For example, they may contain
+        official-looking IYC letterheads, including the IYC emblem or name, or some
+        variation thereof, and e-mail or web site addresses, a similar name, or the name of
+        International Youth Council’s or fictitious one.
+        <br><br>
+        Financial loss and identity theft can result from providing personal details or the
+        transfer of money to those issuing such correspondence. <b> is not responsible for
+        any such loss or theft. </b>
+        <br><br>
+        You should further be aware that these types of scams are very difficult to
+        investigate and there is little or no chance of you getting your money back or
+        finding the individuals concerned. The best ways to deal with these crimes are
+        <b>PREVENTION</b> and <b>PROTECTION</b>.
+    </p>
+
+    <div class="scam__head__2" > What to Do </div>
+
+    <p class="scam__para__1">
+        <b> not reply or release any of your personal details to these individuals under
+            any circumstances.</b>
+        <br><br>
+        To protect against any loss via these scam schemes, the Office of Operations and
+        Partnerships of IYC offers the following information based on law enforcement
+        advisories:
+        <br><br>
+        If you receive one of these scam messages,
+    </p>
+    <ul class="scam__list__1">
+        <li> do not reply to any of the messages </li>
+        <li> do not provide details of your bank accounts; </li>
+        <li> do not offer details of your company or workplace; </li>
+        <li> do not send or hand over any identity documents or educational certificates
+            or letters with your personal or official letterheads and logos—not even
+            copies of those documents.
+        </li>
+    </ul>
+
+    <p class="scam__para__1" >
+        If you are already in contact with perpetrators or have already paid advanced fees,
+        save all received and sent messages; save all documents relating to transactions
+        and remittances; do not agree to attend meetings where money is promised to be
+        handed over to you; and contact your local police force and follow their advice.
+        <br><br>
+        You can also find further information on advanced fee scams on the Interpol and
+        UNFCU websites. See the links on the top right of this page.
+        <br><br>
+        If you are still unsure of what actions to take, simply delete the e-mail or send a
+        copy of the e-mail to the Executive Director, Office of Operations and Partnerships,
+        Zurich, Switzerland, or to: <a href="mailto:info@internationalyouthcouncil.com">info@internationalyouthcouncil.com</a>
+
+        <br><br>
+        <b>Thank you</b>
+    </p>
+
+
+    <!-- Footer -->
+    <div class="footer__container">
+        <div class="footer__wrapper">
+            <div class="footer__top">
+                <div class="footer__top__img">
+                    <img src="../img/iyc-logo-2.png" alt="iyc-logo">
+                    <p> International Youth Council </p>
+                </div>
+                <div class="footer__newsletter__wrapper">
+                    <p> Sign up for our newsletter </p>
+                    <div class="footer__newsletter__submit">
+                        <input type="text"  placeholder="Email">
+                        <button> Submit </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="footer__middle">
+                <div class="footer__link__container">
+                    <div class="footer__link__wrapper">
+                        <div class="footer__link__card">
+                            <div class="footer__link__header">Who We Are</div>
+                            <div class="footer__link__card__wrapper">
+                                <div class="footer__link"><a href="brief.html">IYC In Brief</a></div>
+                                <div class="footer__link"><a href="worldwide.html">IYC Worldwide</a></div>
+                                <div class="footer__link"><a href="country-program.html">IYC Country Program</a></div>
+                                <div class="footer__link"><a href="worldwide.html">Leadership</a></div>
+                                <div class="footer__link"><a href="worldwide.html">Executive Board</a></div>
+                                <div class="footer__link"><a href="accreditation.html">Accreditation and Affiliations </a></div>
+                                <div class="footer__link"><a href="agenda.html">2030 Agenda & SDGs</a> </div>
+                            </div>
+                        </div>
+                        <div class="footer__link__card">
+                            <div class="footer__link__header">Our Focus</div>
+                            <div class="footer__link__card__wrapper">
+                                <div class="footer__link"><a href="focus.html#entrepreneurial">Enhancing Entrepreneurial Competence</a></div>
+                                <div class="footer__link"><a href="focus.html#education">Education For Better Future</a></div>
+                                <div class="footer__link"><a href="focus.html#environment">Protecting The Environment</a></div>
+                                <div class="footer__link"><a href="focus.html#society">Creating Sustainable Societies </a></div>
+                                <div class="footer__link"><a href="focus.html#well-being">Improving Physical, Mental & Social Well-being</a> </div>
+                                <div class="footer__link"><a href="focus.html#cross-cutting">Cross-cutting Services</a></div>
+                                <div class="footer__link"><a href="focus.html#humanitarian">Humanitarian Support</a></div>
+                            </div>
+                        </div>
+                        <div class="footer__link__card">
+                            <div class="footer__link__header">IYC Initiatives</div>
+                        </div>
+                        <div class="footer__link__card">
+                            <div class="footer__link__header">Get Involved</div>
+                            <div class="footer__link__card__wrapper">
+                                <div class="footer__link"><a href="#">Careers</a></div>
+                                <div class="footer__link"><a href="#">IYC Shop</a></div>
+                                <div class="footer__link"><a href="#">IYC Giving</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quick__link__card">
+                        <div class="quick__link__header">Quick Links</div>
+                        <div class="quick__link__wrapper">
+                            <div class="quick__link"><a href="index.html">Home</a></div>
+                            <div class="quick__link"><a href="#">For Partnerships</a></div>
+                            <div class="quick__link"><a href="#">Scam Alert</a> </div>
+                            <div class="quick__link"><a href="#">Disclaimer</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <!--                    <div class="detail__wrapper">-->
+                    <!--                        <div class="contact__header"> Contact Us </div>-->
+                    <!--                        <div class="address__container">-->
+                    <!--                            <i class="fa fa-globe"></i>-->
+                    <!--                            <p> International Youth Council Headquarters, New York, USA </p>-->
+                    <!--                        </div>-->
+                    <!--                        <div class="email__container">-->
+                    <!--                            <i class="fa fa-envelope"></i>-->
+                    <!--                            <p> info@internationalyouthcouncil.com </p>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="footer__info__wrapper">-->
+                    <!--                        A world in which all nations provide a platform for inclusive and Sustainable Youth Development-->
+                    <!--                    </div>-->
+                    <div class="footer__div__new">
+                        <div class="footer__icon__new">
+                            <i class="fa fa-globe"></i>
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <div class="footer__new__con">
+                            <p> Report Fraud, Abuse, Misconduct </p>
+                            <p> Submit social or environmental complaint </p>
+                            <p> Scam Alert </p>
+                            <p> Terms of Use </p>
+                        </div>
+                    </div>
+                    <div class="footer__social__link__wrapper">
+                        <i class="fa fa-instagram"></i>
+                        <a href="https://www.facebook.com/IYCconnect/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__rights">
+            International Youth Council © 2023 All rights reserved
+        </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/footer.js"></script>
+
+    <script src="https://kit.fontawesome.com/86f0938acd.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
+
+</body>
+</html>
