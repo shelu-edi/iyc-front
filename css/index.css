@@ -789,6 +789,10 @@ label span {
     margin-left: 550px;
   }
 
+  .focus__img {
+    height: 10rem;
+  }
+
   .partnership__join {
     margin-top: 2rem;
   }
@@ -812,8 +816,18 @@ label span {
   }
 
   .project__card img {
-    width: 300px;
+    width: 100%;
     height: 200px;
+  }
+
+  .project__card__head {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .project__card__info {
+    margin-right: 2rem;
+    width: 80%;
   }
 
   .project__card img:hover {

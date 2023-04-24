@@ -4,6 +4,11 @@
   scroll-behavior: smooth;
 }
 
+html, body {
+  padding:0;
+  margin:0;
+}
+
 /* Animations */
 @keyframes fadeIn {
   0% {
@@ -394,6 +399,27 @@
     display: none;
   }
 
+  .footer__link__container {
+    margin-left: 5rem;
+    margin-right: -3rem;
+  }
+
+  .footer__newsletter__submit button {
+    padding-bottom: .1rem;
+  }
+
+  .footer__link__card {
+    width: 6rem;
+  }
+
+  .footer__info {
+    margin-right: 7rem;
+  }
+
+  .footer__newsletter__submit button {
+    margin-top: 1rem;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -450,6 +476,15 @@
 
   #sdg-inequalities-details a, #sdg-communities-details a, #sdg-life-below-details a,#sdg-life-land-details a {
     font-size: 1rem;
+  }
+
+  .footer__info {
+    margin-right: 0;
+    margin-left: 4rem;
+  }
+
+  .footer__newsletter__submit button {
+    padding-bottom: .2rem;
   }
 }
 
