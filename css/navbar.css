@@ -1,4 +1,6 @@
 /* Navbar */
+.show {display: block;}
+
 
 .nav__container {
     display: flex;

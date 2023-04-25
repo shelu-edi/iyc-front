@@ -27,6 +27,7 @@
 
 .hero__div {
     display: flex;
+    overflow-x: hidden;
 }
 
 .hero__head {
@@ -91,6 +92,16 @@
 }
 
 /* Leadership */
+.leadership__container {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.leadership__container img {
+    margin-left: 3rem;
+    height: 30rem;
+}
+
 .leadership__head {
     margin: 2rem 0 1rem 3rem;
     font-size: 2rem;
@@ -106,20 +117,42 @@
 }
 
 .leadership__info {
-    margin: 1rem 0 2rem 3rem;
+    margin: 1rem 2rem 2rem 3rem;
     font-size: 1.2rem;
     font-weight: 700;
+    text-align: justify;
 }
 
 /* Responsive */
 @media screen and (max-width: 960px)  {
+    .leadership__container {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .leadership__container img {
+        width: 40rem;
+    }
+
     .leadership__info {
-        margin-right: 1rem;
+        margin-right: 2rem;
         text-align: justify;
     }
 }
 
 @media screen and (max-width: 480px)  {
+    .hero__info__container p{
+        margin-left: -2rem;
+    }
+
+    .leadership__container img {
+        width: 20rem;
+        height: 20rem;
+        margin-left: 2rem;
+        overflow-x: hidden;
+    }
+
+
     .leadership__head {
         font-size: 1.5rem;
         margin-left: 1rem;
@@ -133,5 +166,7 @@
     .leadership__info {
         font-size: 1rem;
         margin-left: 1rem;
+        margin-right: 1rem;
+        overflow-x: hidden;
     }
 }
