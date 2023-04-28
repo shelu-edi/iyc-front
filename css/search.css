@@ -3,6 +3,10 @@
     font-family: "Trebuchet MS", sans-serif;
     scroll-behavior: smooth;
 }
+html, body {
+    padding:0;
+    margin:0;
+}
 
 .search__container {
     height: 100px;

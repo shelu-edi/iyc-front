@@ -155,7 +155,6 @@
   text-decoration: none;
 }
 
-
 /* carousel */
 .carousel__item {
   align-items: center;
@@ -168,6 +167,11 @@
 }
 
 /* Stories */
+.news__title {
+  margin-left: 3.5rem;
+  margin-bottom: 1rem;
+}
+
 .stories__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -218,14 +222,14 @@
   z-index: 50;
   width: 4.5rem;
   position: absolute;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
 .story__read a {
   text-decoration: none;
   color: #1964b7;
   z-index: 50;
-  margin-left: .6rem;
+  margin-left: 0.6rem;
 }
 
 .story__hover {
@@ -265,7 +269,6 @@
   justify-content: flex-end;
   margin: 3rem 5rem 3rem 0;
 }
-
 
 /* Vision & Mission */
 .vm__wrapper {
@@ -850,7 +853,6 @@ label span {
     /* border: 1px solid #002060; */
   }
 
-
   .pagination__card {
     width: 50px;
     height: 50px;
@@ -1005,7 +1007,6 @@ label span {
     height: 30px;
     padding-top: 0;
     padding-bottom: 1rem;
-
   }
 
   .partnership__join a {
@@ -1051,7 +1052,7 @@ label span {
   .project__card__info {
     text-align: justify;
     padding: 0 2rem;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 
   .project__card {

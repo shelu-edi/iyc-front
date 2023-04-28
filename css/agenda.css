@@ -77,9 +77,15 @@ html, body {
 }
 
 /* Agenda */
+.agenda__para {
+  text-align: justify;
+  margin: 0 2rem;
+}
+
+
 .agenda_container {
   display: flex;
-  margin: 2rem 0;
+  margin: 2rem 2rem;
 }
 
 .agenda_container img {
@@ -126,6 +132,7 @@ html, body {
   font-size: 1.2rem;
   text-align: justify;
   margin: 0 1rem;
+  font-weight: 800;
 }
 
 #sdg-wellbeing-head {
