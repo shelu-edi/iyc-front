@@ -44,7 +44,7 @@ html, body {
 }
 
 .hero__wrapper p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   padding: 4rem 1rem;
   margin-top: 2rem;
   text-align: justify;
@@ -80,6 +80,7 @@ html, body {
 .agenda__para {
   text-align: justify;
   margin: 0 2rem;
+  font-size: 1.25rem;
 }
 
 
@@ -95,9 +96,10 @@ html, body {
 }
 
 .agenda__head {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #1964b7;
   animation: fadeIn 3s;
+  font-weight: 700;
 }
 
 .agenda__wrapper {
@@ -108,6 +110,7 @@ html, body {
   margin-top: 3rem;
   animation: fadeIn 3.5s;
   text-align: justify;
+  font-size: 1.25rem;
 }
 
 #agenda-planet,
@@ -123,16 +126,17 @@ html, body {
 
 .sdg__head {
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 2rem 0;
   color: #1964b7;
+  font-weight: 700;
 }
 
 .sdg__container p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   text-align: justify;
   margin: 0 1rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 #sdg-wellbeing-head {
@@ -289,10 +293,10 @@ html, body {
   display: flex;
   /*position: absolute;*/
   color: #fff;
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-align: center;
   margin-left: 18rem;
-  font-weight: 700;
+  font-weight: 800;
   z-index: 2;
 }
 
@@ -304,10 +308,10 @@ html, body {
 .sdg__details {
   position: absolute;
   color: #fff;
-  width: 48.5%;
+  width: 49%;
   height: 400px;
   /*background:rgba(204, 51, 51, 1) ;*/
-  font-size: 1rem;
+  font-size: 1.25rem;
   display: none;
   text-align: center;
   z-index: 20;

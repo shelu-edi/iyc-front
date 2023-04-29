@@ -91,7 +91,7 @@ html, body {
 .focus__wrapper {
     display: flex;
     flex-direction: row;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
     justify-content: space-around;
 }
 
@@ -116,7 +116,7 @@ html, body {
 
 .focus__info__head {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #1964b7;
     animation: fadeIn 2s;
     text-align: center;
@@ -124,7 +124,7 @@ html, body {
 
 .focus__info__div p {
     padding: 3rem 0 0 0;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     text-align: justify;
     /*color: #1964b7;*/

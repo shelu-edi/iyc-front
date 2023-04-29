@@ -72,7 +72,7 @@ html, body {
 
 /* Info */
 .info__wrapper {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   margin: 1rem 2rem;
   animation: fadeIn 3s;
 }
