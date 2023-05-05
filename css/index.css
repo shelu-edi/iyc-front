@@ -44,7 +44,7 @@
 
 .read__more {
   margin: 50px 0 0 30px;
-  background: #0351b1;
+  background: #4176BC;
   width: 150px;
   height: 50px;
   text-align: center;
@@ -228,7 +228,7 @@
 
 .story__read a {
   text-decoration: none;
-  color: #1964b7;
+  color: #4176BC;
   z-index: 50;
   margin-left: 0.6rem;
 }
@@ -261,7 +261,7 @@
 
 .gradient__div {
   position: absolute;
-  background: #1964b7;
+  background: #4176BC;
   z-index: 100;
 }
 
@@ -277,7 +277,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: #0351b1;
+  background: #4176BC;
   color: #fff;
   padding: 0 80px 10px 50px;
   margin-bottom: 20px;
@@ -406,7 +406,7 @@
   margin-top: 1rem;
   margin-bottom: 50px;
   padding-top: 5px;
-  background: #0351b1;
+  background: #4176BC;
   font-size: 20px;
   text-align: center;
   width: 150px;
@@ -654,7 +654,7 @@ label span {
   cursor: pointer;
 }
 .item span {
-  background: #0351b1;
+  background: #4176BC;
   box-shadow: 0 0.8rem 2rem rgba(90, 97, 129, 0.05);
   border-radius: 0.6rem;
   padding: 2rem;
@@ -678,7 +678,7 @@ label span {
   margin: 3rem;
   padding-right: 2rem;
   border-radius: 0.6rem;
-  background: #0351b1;
+  background: #4176BC;
   box-shadow: 0 0.8rem 2rem rgba(90, 97, 129, 0.05);
 }
 .page__numbers,

@@ -4,9 +4,10 @@
   scroll-behavior: smooth;
 }
 
-html, body {
-  padding:0;
-  margin:0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
 
 /* Animations */
@@ -73,7 +74,7 @@ html, body {
 }
 
 .active {
-  color: #447BBF;
+  color: #447bbf;
 }
 
 /* Agenda */
@@ -82,7 +83,6 @@ html, body {
   margin: 0 2rem;
   font-size: 1.25rem;
 }
-
 
 .agenda_container {
   display: flex;
@@ -160,7 +160,7 @@ html, body {
 }
 
 #sdg-economic-head {
-  margin-left: 1rem;
+  margin-left: 8rem;
 }
 
 #sdg-infrastructure-head {
@@ -358,9 +358,6 @@ html, body {
     height: 10rem;
   }
 
-
-
-
   .sdg__wrapper {
     grid-template-columns: 1fr;
     justify-content: center;
@@ -385,13 +382,22 @@ html, body {
     font-size: 1.2rem;
   }
 
-  #sdg-wellbeing-head , #sdg-education-head, #sdg-gender-head, #sdg-water-head, #sdg-energy-head, #sdg-inequalities-head,
-  #sdg-climate-head, #sdg-life-below-head, #sdg-life-land-head, #sdg-partnerships-head
-  {
+  #sdg-wellbeing-head,
+  #sdg-education-head,
+  #sdg-gender-head,
+  #sdg-water-head,
+  #sdg-energy-head,
+  #sdg-inequalities-head,
+  #sdg-climate-head,
+  #sdg-life-below-head,
+  #sdg-life-land-head,
+  #sdg-partnerships-head {
     margin-left: 0;
   }
 
-  #sdg-inequalities-details a, #sdg-life-land-details a, #sdg-life-below-details a{
+  #sdg-inequalities-details a,
+  #sdg-life-land-details a,
+  #sdg-life-below-details a {
     font-size: 1rem;
   }
 
@@ -416,7 +422,7 @@ html, body {
   }
 
   .footer__newsletter__submit button {
-    padding-bottom: .1rem;
+    padding-bottom: 0.1rem;
   }
 
   .footer__link__card {
@@ -430,7 +436,6 @@ html, body {
   .footer__newsletter__submit button {
     margin-top: 1rem;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -439,7 +444,7 @@ html, body {
   }
 
   .hero__wrapper p {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .agenda_container {
@@ -464,8 +469,8 @@ html, body {
   }
 
   .agenda__wrapper p {
-    font-size: .7rem;
-    margin-top: .5rem;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
   }
 
   .sdg__head {
@@ -485,7 +490,10 @@ html, body {
     margin-left: 0;
   }
 
-  #sdg-inequalities-details a, #sdg-communities-details a, #sdg-life-below-details a,#sdg-life-land-details a {
+  #sdg-inequalities-details a,
+  #sdg-communities-details a,
+  #sdg-life-below-details a,
+  #sdg-life-land-details a {
     font-size: 1rem;
   }
 
@@ -495,7 +503,6 @@ html, body {
   }
 
   .footer__newsletter__submit button {
-    padding-bottom: .2rem;
+    padding-bottom: 0.2rem;
   }
 }
-

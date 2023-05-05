@@ -87,10 +87,11 @@
 .footer__middle {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 1rem;
 }
 
 .footer__rights {
-    background: #1964b7;
+    background: #4176BC;
     color: #fff;
     padding: 10px 0 10px 3rem;
     /*text-align: center;*/

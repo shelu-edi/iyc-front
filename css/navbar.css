@@ -1,4 +1,17 @@
 /* Navbar */
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+
 .show {display: block;}
 
 
@@ -35,10 +48,10 @@
     z-index: 999;
     height: 36rem;
     width: 60rem;
-    transition: all 0.5s ease-in, border-radius 1s;
+    transition: all 1s ease-in;
     /*border-radius: 50%;*/
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    /*border-bottom-left-radius: 50%;*/
+    /*border-bottom-right-radius: 50%;*/
 }
 
 .nav__link {
@@ -331,7 +344,7 @@
 }
 
 .nav__link i {
-    color: #0351b1;
+    color: #4176BC;
 }
 
 .nav__link i:hover {
