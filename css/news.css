@@ -48,7 +48,7 @@
     font-size: 5rem;
     margin-top: 3rem;
     animation: fadeIn 2s;
-    color: #447BBF;
+    color: #4176BC;
     width: 100%;
     align-self: center;
     font-weight: 800;
@@ -99,7 +99,7 @@
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 800;
-    color: #447BBF;
+    color: #4176BC;
 }
 
 .news__content {
@@ -111,7 +111,7 @@
 
 .news__read__more {
     margin: 1rem 0;
-    color: #447BBF;
+    color: #4176BC;
     font-weight: 600;
     text-transform: uppercase;
 }
