@@ -4,11 +4,11 @@
   scroll-behavior: smooth;
 }
 
-html, body {
-    padding:0;
-    margin:0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
-
 
 /* Animations */
 @keyframes fadeIn {
@@ -35,7 +35,7 @@ html, body {
 .hero__container h1 {
   margin: 1rem 0 0 0;
   font-size: 6rem;
-  color: #fff;
+  color: #4176bc;
   text-align: center;
   animation: fadeIn 1s;
 }
@@ -84,7 +84,7 @@ html, body {
 }
 
 .achieve__card {
-  background: #1964b7;
+  background: #4176bc;
   color: #fff;
   margin: 0 1rem;
   height: 10rem;
@@ -106,7 +106,7 @@ html, body {
 .achieve__card:hover {
   cursor: pointer;
   background: #fff;
-  color: #1964b7;
+  color: #4176bc;
   transition: all 0.5s ease;
 }
 
@@ -121,7 +121,7 @@ html, body {
   font-size: 1.5rem;
   margin-top: 2rem;
   font-weight: 800;
-  color: #447bbf;
+  color: #4176bc;
 }
 
 .goal__list {
@@ -145,12 +145,12 @@ html, body {
   }
 
   .achieve__card:hover {
-      color: #fff;
-      background: #1964b7;
+    color: #fff;
+    background: #4176bc;
   }
 
   .achieve__card__details {
-      margin: 1rem 3rem 0 3rem;
+    margin: 1rem 3rem 0 3rem;
   }
 
   .achieve__card__number {
@@ -158,34 +158,32 @@ html, body {
   }
 
   .goal__title {
-      font-size: 2rem;
+    font-size: 2rem;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-    .hero__container h1 {
-        font-size: 2rem;
-    }
+  .hero__container h1 {
+    font-size: 2rem;
+  }
 
-    .sdg__info__wrapper {
-        font-size: .8rem;
-    }
+  .sdg__info__wrapper {
+    font-size: 0.8rem;
+  }
 
-    .achieve__card {
-        height: 15rem;
-    }
+  .achieve__card {
+    height: 15rem;
+  }
 
-    .achieve__card__number {
-        font-size: 1rem;
-    }
+  .achieve__card__number {
+    font-size: 1rem;
+  }
 
-    .achieve__card__details {
-        font-size: .8rem;
-    }
+  .achieve__card__details {
+    font-size: 0.8rem;
+  }
 
-    .goal__list li {
-        font-size: .8rem;
-    }
-
+  .goal__list li {
+    font-size: 0.8rem;
+  }
 }

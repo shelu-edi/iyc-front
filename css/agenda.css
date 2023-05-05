@@ -40,7 +40,7 @@ body {
   font-size: 2.8rem;
   font-weight: 600;
   text-align: center;
-  color: #fff;
+  color: #4176bc;
   animation: fadeIn 1s;
 }
 
@@ -70,7 +70,7 @@ body {
 
 .bread__link:hover {
   text-decoration: none;
-  color: #1964b7;
+  color: #4176bc;
 }
 
 .active {
@@ -97,7 +97,7 @@ body {
 
 .agenda__head {
   font-size: 1.5rem;
-  color: #1964b7;
+  color: #4176bc;
   animation: fadeIn 3s;
   font-weight: 700;
 }
@@ -128,7 +128,7 @@ body {
   text-align: center;
   font-size: 1.5rem;
   margin: 2rem 0;
-  color: #1964b7;
+  color: #4176bc;
   font-weight: 700;
 }
 
@@ -404,7 +404,7 @@ body {
   .sdg__details {
     position: relative;
     display: flex;
-    color: #1964b7;
+    color: #4176bc;
     height: 100%;
   }
 

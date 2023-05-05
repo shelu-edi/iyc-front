@@ -31,7 +31,7 @@ html, body {
     font-size: 3rem;
     text-align: center;
     margin-top: 2rem;
-    color: #1964b7;
+    color: #4176BC;
     animation: fadeIn 1s;
 }
 
@@ -55,7 +55,7 @@ html, body {
     font-size: 4rem;
     margin-top: 3rem;
     animation: fadeIn 2s;
-    color: #1964b7;
+    color: #4176BC;
     font-weight: 800;
     width: 100%;
     align-self: center;
@@ -108,7 +108,7 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: #1964b7;
+    background: #4176BC;
     color: #fff;
     padding: 2rem;
     animation: fadeIn 2.5s;
@@ -131,7 +131,7 @@ html, body {
     flex-direction: column;
     width: 100%;
     /*background: #0351b1;*/
-    color: #1964b7;
+    color: #4176BC;
     padding: 2rem;
     animation: fadeIn 4s;
 }
@@ -152,7 +152,7 @@ html, body {
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background: #1964b7;
+    background: #4176BC;
     color: #fff;
     animation: fadeIn 5.5s;
 }
@@ -180,7 +180,7 @@ html, body {
     font-size: 1.5rem;
     font-weight: 700;
     margin-left: 2rem;
-    color: #1964b7;
+    color: #4176BC;
 }
 
 .history__wrapper {
@@ -190,7 +190,7 @@ html, body {
 }
 
 .history__1 {
-    background: #1964b7;
+    background: #4176BC;
     color: #fff;
     height: 100%;
     padding: 1rem;
@@ -200,7 +200,7 @@ html, body {
 }
 
 .history__2 {
-    color: #1964b7;
+    color: #4176BC;
     height: 100%;
     padding: 1rem;
     text-align: justify;
@@ -209,7 +209,7 @@ html, body {
 }
 
 .history__3 {
-    background: #1964b7;
+    background: #4176BC;
     color: #fff;
     height: 100%;
     padding: 1rem;
@@ -219,7 +219,7 @@ html, body {
 }
 
 .history__4 {
-    color: #1964b7;
+    color: #4176BC;
     height: 100%;
     padding: 1rem;
     text-align: justify;
@@ -237,7 +237,7 @@ html, body {
 .mdg__wrapper p {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1964b7;
+    color: #4176BC;
 }
 
 .mdg__list {

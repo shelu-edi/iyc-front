@@ -4,9 +4,10 @@
   scroll-behavior: smooth;
 }
 
-html, body {
-  padding:0;
-  margin:0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
 
 /* Animations */
@@ -27,7 +28,6 @@ html, body {
     opacity: 1;
   }
 }
-
 
 /* Breadcrumb */
 .breadcrumb__wrapper {
@@ -53,9 +53,8 @@ html, body {
 }
 
 .active {
-  color: #447BBF;
+  color: #447bbf;
 }
-
 
 /* Hero */
 
@@ -93,12 +92,12 @@ html, body {
   font-size: 1.5rem;
   margin-top: 3rem;
   animation: fadeIn 1.5s;
-  color: #fff;
+  color: #4176bc;
 }
 
 /* Carousel */
 .carousel__wrapper {
-  margin: 1rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 .slider {
@@ -172,7 +171,7 @@ html, body {
   }
 
   .footer__newsletter__submit button {
-    padding-bottom: .1rem;
+    padding-bottom: 0.1rem;
   }
 
   .footer__link__card {
@@ -186,7 +185,6 @@ html, body {
   .footer__newsletter__submit button {
     margin-top: 1rem;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -196,7 +194,7 @@ html, body {
   }
 
   .footer__newsletter__submit button {
-    padding-bottom: .2rem;
+    padding-bottom: 0.2rem;
   }
 
   .hero__head {

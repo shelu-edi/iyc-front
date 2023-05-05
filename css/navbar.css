@@ -85,7 +85,7 @@
     padding: 1rem 0 0 1rem;
     text-decoration: none;
     height: 100%;
-    border-bottom: 1px solid #1964b7;
+    border-bottom: 1px solid #4176BC;
 }
 
 .nav__dropdown__links a:hover {
@@ -136,7 +136,7 @@
 
 #iyc-brief p {
     font-size: 1rem;
-    color: #0351b1;
+    color: #4176BC;
     padding: 1rem 0.5rem 1rem 0;
     text-align: justify;
     width: 80%;
@@ -160,7 +160,7 @@
 
 #iyc-focus p {
     font-size: 1rem;
-    color: #0351b1;
+    color: #4176BC;
     padding: 1rem 0.5rem 1rem 0;
     text-align: justify;
     width: 80%;
@@ -184,7 +184,7 @@
 
 #iyc-team p {
     font-size: 1rem;
-    color: #0351b1;
+    color: #4176BC;
     padding: 1rem 0.5rem 1rem 0;
     text-align: justify;
     width: 80%
@@ -209,7 +209,7 @@
 
 #iyc-worldwide p {
     font-size: 1rem;
-    color: #0351b1;
+    color: #4176BC;
     padding: 1rem 0.5rem 1rem 0;
     text-align: justify;
     width: 80%;
@@ -233,7 +233,7 @@
 
 #iyc-country p {
     font-size: 1rem;
-    color: #0351b1;
+    color: #4176BC;
     padding: 1rem 0.5rem 1rem 0;
     text-align: justify;
     width: 80%;
@@ -257,7 +257,7 @@
 
 #iyc-affiliations p {
     font-size: 1rem;
-    color: #0351b1;
+    color: #4176BC;
     padding: 1rem 0.5rem 1rem 0;
     text-align: justify;
     width: 80%;
@@ -281,7 +281,7 @@
 
 #iyc-agenda p {
     font-size: 1rem;
-    color: #0351b1;
+    color: #4176BC;
     padding: 1rem 0.5rem 1rem 0;
     text-align: justify;
     width: 80%;
@@ -385,7 +385,7 @@
 
     .mobile__menu i {
         margin-top: 40px;
-        color: #0351b1;
+        color: #4176BC;
         font-size: 1.5rem;
     }
 
@@ -406,7 +406,7 @@
     .mobile__drop__link {
         text-decoration: none;
         font-size: 1.3rem;
-        color: #0351b1;
+        color: #4176BC;
     }
 
     .mobile__img {
@@ -455,15 +455,15 @@
     }
 
     .bar:nth-child(1) {
-        background-color: #0351b1;
+        background-color: #4176BC;
     }
 
     .bar:nth-child(2) {
-        background-color: #0351b1;
+        background-color: #4176BC;
     }
 
     .bar:nth-child(3) {
-        background-color: #0351b1;
+        background-color: #4176BC;
     }
 
     #mobile-menu.is-active .bar:nth-child(2) {

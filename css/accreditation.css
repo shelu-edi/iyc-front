@@ -4,9 +4,10 @@
   scroll-behavior: smooth;
 }
 
-html, body {
-  padding:0;
-  margin:0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
 
 /* Animations */
@@ -19,7 +20,6 @@ html, body {
   }
 }
 
-
 /* Hero */
 
 .hero__div {
@@ -31,7 +31,7 @@ html, body {
   font-size: 3rem;
   text-align: center;
   margin-top: 2rem;
-  color: #1964b7;
+  color: #4176bc;
   animation: fadeIn 1s;
 }
 
@@ -56,7 +56,7 @@ html, body {
   font-size: 4rem;
   margin-top: 3rem;
   animation: fadeIn 2s;
-  color: #447BBF;
+  color: #4176bc;
   width: 100%;
   align-self: center;
   font-weight: 800;
@@ -84,7 +84,7 @@ html, body {
 }
 
 .active {
-  color: #447BBF;
+  color: #447bbf;
 }
 
 /* Accreditation */
@@ -97,7 +97,7 @@ html, body {
 
 .acc__head {
   font-size: 1.5rem;
-  color: #1964b7;
+  color: #4176bc;
   text-align: center;
   animation: fadeIn 1s;
   font-weight: 800;
@@ -112,7 +112,7 @@ html, body {
 
 .acc__card {
   width: 100%;
-  margin:0 1rem 1rem 1rem;
+  margin: 0 1rem 1rem 1rem;
 }
 
 .acc__card img {
@@ -125,9 +125,7 @@ html, body {
   text-align: center;
   font-size: 1.25rem;
   font-weight: 700;
-
 }
-
 
 /* Affiliations */
 .aff__container {
@@ -139,7 +137,7 @@ html, body {
 
 .aff__head {
   font-size: 1.5rem;
-  color: #1964b7;
+  color: #4176bc;
   text-align: center;
   animation: fadeIn 2s;
   font-weight: 800;
@@ -154,7 +152,7 @@ html, body {
 
 .aff__card {
   width: 90%;
-  margin:0 1rem 1rem 1rem;
+  margin: 0 1rem 1rem 1rem;
 }
 
 .aff__card img {
@@ -167,13 +165,11 @@ html, body {
   text-align: center;
   font-size: 1.25rem;
   font-weight: 700;
-
 }
-
 
 /* Responsive */
 
-@media screen and (max-width: 960px)  {
+@media screen and (max-width: 960px) {
   .hero__info__container p {
     font-size: 3rem;
   }
@@ -186,11 +182,13 @@ html, body {
     margin-left: 0;
   }
 
-  .acc__card img, .aff__card img {
+  .acc__card img,
+  .aff__card img {
     margin-left: 5rem;
   }
 
-  .acc__wrapper, .aff__wrapper {
+  .acc__wrapper,
+  .aff__wrapper {
     grid-template-columns: 1fr 1fr;
     overflow-x: hidden;
   }
@@ -201,7 +199,7 @@ html, body {
   }
 
   .footer__newsletter__submit button {
-    padding-bottom: .1rem;
+    padding-bottom: 0.1rem;
   }
 
   .footer__link__card {
@@ -229,23 +227,28 @@ html, body {
     width: 100%;
   }
 
-  .acc__head, .aff__head {
+  .acc__head,
+  .aff__head {
     font-size: 1.5rem;
   }
 
-  .acc__card, .aff__card {
+  .acc__card,
+  .aff__card {
     margin-left: 0;
   }
 
-  .acc__card p, .aff__card p {
-    font-size: .8rem;
+  .acc__card p,
+  .aff__card p {
+    font-size: 0.8rem;
   }
 
-  .acc__card img, .aff__card img {
+  .acc__card img,
+  .aff__card img {
     margin-left: 6rem;
   }
 
-  .acc__wrapper, .aff__wrapper {
+  .acc__wrapper,
+  .aff__wrapper {
     grid-template-columns: 1fr;
   }
 
@@ -255,7 +258,6 @@ html, body {
   }
 
   .footer__newsletter__submit button {
-    padding-bottom: .2rem;
+    padding-bottom: 0.2rem;
   }
 }
-

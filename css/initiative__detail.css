@@ -1,85 +1,85 @@
 * {
-@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
-    font-family: "Trebuchet MS", sans-serif;
+  @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Initiative */
 .initiative__container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .carousel__container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    animation: fadeIn 1s;
-    overflow: hidden;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  animation: fadeIn 1s;
+  overflow: hidden;
 }
 
 .carousel__item img {
-    /*height: 700px;*/
-    /*width: 100%;*/
-    object-fit: cover;
-    width: 99vw;
-    height: 85vh;
+  /*height: 700px;*/
+  /*width: 100%;*/
+  object-fit: cover;
+  width: 99vw;
+  height: 85vh;
 }
 
 /* Breadcrumb */
 .breadcrumb__wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 23rem;
-    margin: 2rem 0 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 23rem;
+  margin: 2rem 0 1rem 3rem;
 }
 
 .bread__link {
-    color: #000;
-    font-weight: 600;
+  color: #000;
+  font-weight: 600;
 }
 
 .bread__link:hover {
-    text-decoration: none;
-    color: #1964b7;
+  text-decoration: none;
+  color: #1964b7;
 }
 
 .active {
-    color: #447BBF;
+  color: #447bbf;
 }
 
 .initiative__head {
-    margin: 3rem 0 1rem 3rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #0099cc;
+  margin: 3rem 0 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4176bc;
 }
 
 .initiative__info__container {
-    margin: 2rem;
-    text-align: justify;
-    display: flex;
-    font-size: 1.25rem;
-    animation: fadeIn 1.5s;
-    overflow: hidden;
+  margin: 2rem;
+  text-align: justify;
+  display: flex;
+  font-size: 1.25rem;
+  animation: fadeIn 1.5s;
+  overflow: hidden;
 }
 
 /* Responsive */
 @media screen and (max-width: 480px) {
-    .carousel__item img {
-        height: 50vh;
-    }
+  .carousel__item img {
+    height: 50vh;
+  }
 
-    .initiative__info__container {
-        font-size: 1rem;
-    }
+  .initiative__info__container {
+    font-size: 1rem;
+  }
 }
