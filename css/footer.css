@@ -243,6 +243,12 @@
     color: #fff;
 }
 
+@media screen and (max-width: 1544px){
+    .footer__social__link__wrapper {
+        width: 500px;
+    }
+}
+
 
 @media screen and (max-width: 960px) {
     .footer__top__img img {
