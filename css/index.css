@@ -102,6 +102,8 @@
 
 .featured__mid {
   padding-bottom: 2rem;
+  padding-right: 1rem;
+  text-align: justify;
 }
 
 .featured__bottom {
@@ -142,14 +144,18 @@
   height: 30%;
   padding-top: 1rem;
   font-weight: 700;
+  margin-left: 1rem;
 }
 
 .featured__card__mid {
   margin-bottom: 1rem;
+  padding: 0 1rem;
+  text-align: justify;
 }
 
 .featured__card__bottom {
   margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .featured__card__bottom a {
@@ -278,6 +284,63 @@
   justify-content: flex-end;
   margin: 3rem 5rem 3rem 0;
 }
+
+
+.story__card__test {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  margin-bottom: 2rem;
+  background: rgba(217, 217, 217, 0.2);
+}
+
+.story__content__test {
+  height: 100%;
+}
+
+.story__head__test {
+  margin-top: 40px;
+  height: 10%;
+  font-size: 1.5rem;
+  margin-left: 30px;
+  font-weight: 600
+}
+
+.story__desc__test {
+  text-align: justify;
+  padding-right: 30px;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+
+.story__hover__test {
+  height: 480px;
+  width: 27.2%;
+  margin-bottom: 10px;
+  /*margin-top:1.7rem;*/
+  /*z-index: 30;*/
+  position: absolute;
+  display: none;
+}
+
+.story__hover__test img {
+  width: 100%;
+  height: 103%;
+  object-fit: cover;
+  z-index: 35;
+}
+
+.story__card__test:hover .story__hover__test {
+  display: flex;
+  animation: slideRight 0.5s;
+}
+
+.story__card__test:hover .story__read {
+  background: #fff;
+}
+
+
 
 /* Vision & Mission */
 .vm__wrapper {
