@@ -82,6 +82,7 @@ body {
   text-align: justify;
   margin: 0 2rem;
   font-size: 1.25rem;
+  font-weight: normal;
 }
 
 .agenda_container {
@@ -136,7 +137,6 @@ body {
   font-size: 1.25rem;
   text-align: justify;
   margin: 0 1rem;
-  font-weight: 600;
 }
 
 #sdg-wellbeing-head {
