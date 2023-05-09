@@ -29,11 +29,12 @@ html, body {
 }
 
 .hero__head {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #4176bc;
     text-align: center;
-    margin: 10rem 0 0 0;
+    margin: 18rem 0 0 0;
     animation: fadeIn 1s;
+    text-transform: uppercase;
 }
 
 .hero__container p {

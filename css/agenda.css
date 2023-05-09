@@ -38,10 +38,11 @@ body {
 .hero__head {
   margin: 15rem 0 0 1rem;
   font-size: 2.8rem;
-  font-weight: 600;
   text-align: center;
   color: #4176bc;
   animation: fadeIn 1s;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .hero__wrapper p {

@@ -31,7 +31,7 @@ html, body {
     font-size: 3rem;
     text-align: center;
     margin-top: 2rem;
-    color: #4176BC;
+    color: #ffffff;
     animation: fadeIn 1s;
 }
 
@@ -51,9 +51,8 @@ html, body {
 
 .hero__info__container p {
     text-align: center;
-    padding: 4rem;
     font-size: 4rem;
-    margin-top: 3rem;
+    padding-bottom: 5rem;
     animation: fadeIn 2s;
     color: #4176BC;
     font-weight: 800;

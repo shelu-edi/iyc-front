@@ -32,9 +32,8 @@ body {
 
 .hero__container h1 {
   text-align: center;
-  padding: 4rem;
-  font-size: 5rem;
-  margin-top: 3rem;
+  font-size: 4rem;
+  margin-bottom: 5rem;
   animation: fadeIn 2s;
   color: #4176bc;
   width: 100%;

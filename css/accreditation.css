@@ -52,14 +52,14 @@ body {
 .hero__info__container p {
   /*background: rgba(25, 100, 183, .2);*/
   text-align: center;
-  padding: 4rem;
   font-size: 4rem;
-  margin-top: 3rem;
+  padding-bottom: 5rem;
   animation: fadeIn 2s;
   color: #4176bc;
   width: 100%;
   align-self: center;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 /* Breadcrumb */

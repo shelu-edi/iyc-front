@@ -67,11 +67,13 @@ body {
 }
 
 .hero__head {
-  font-size: 8rem;
-  text-align: center;
-  margin-top: 10rem;
-  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #4176bc;
   animation: fadeIn 1s;
+  text-align: center;
+  margin-top: 18rem;
+  text-transform: uppercase;;
 }
 
 .hero__wrapper {

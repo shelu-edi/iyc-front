@@ -45,12 +45,13 @@ body {
 }
 
 .focus__info__top__head {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 800;
   color: #4176bc;
   animation: fadeIn 1s;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 18rem;
+  text-transform: uppercase;
 }
 
 .focus__info__div__top p {
