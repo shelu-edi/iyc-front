@@ -29,10 +29,10 @@ html, body {
 }
 
 .hero__head {
-   font-size: 8rem;
-    margin: 10rem 0;
-    font-weight: 700;
-    color: #fff;
+    font-size: 5rem;
+    color: #4176bc;
+    text-align: center;
+    margin: 10rem 0 0 0;
     animation: fadeIn 1s;
 }
 
@@ -68,108 +68,68 @@ html, body {
     color: #447BBF;
 }
 
-/* Movement */
-.movement__container {
+/* Address */
+.address__container {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    text-align: center;
 }
 
-.movement__head {
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 3rem 0;
-}
-
-.contact__info {
-    text-align: center;
-    font-size: 1.5rem;
-    /*color: #447BBF;*/
+.address__head {
+    font-size: 1.2rem;
     font-weight: 700;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
-.add__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2rem;
-}
-
-.add__container img {
-    width: 45%;
-    height: 25rem;
-    margin-right: 10rem;
-}
-
-.contact__address {
-    text-align: justify;
-    margin-top: 7rem;
-    font-size: 1.25rem;
+.add__info {
+    font-size: 1rem;
     font-weight: 600;
 }
 
-.contact__mail {
-    color: #1964b7;
-    text-align: justify;
-    margin-top: 2rem;
-    font-size: 1.25rem;
-    font-weight: 600;
-}
 
-/*Appointment*/
-.app__container {
+.reach__container {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin: 3rem 0 0 3rem;
 }
 
-.app__wrapper__1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2rem;
-}
-
-.app__container img {
-    width: 45%;
-    height: 25rem;
-}
-
-.app__head {
-    text-align: center;
+.reach__head {
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 700;
 }
 
-.app__desc {
-    text-align: center;
-    color: #1964b7;
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-top: 8rem;
+.reach__para {
+    font-size: 1.2rem;
 }
 
-.app__wrapper {
+.reach__para a {
+    color: #4176BC;
+    text-decoration: none;
+}
+
+
+.book__container {
     display: flex;
     flex-direction: column;
+    margin: 3rem 0 0 3rem;
 }
 
-.app__book {
-    margin-top: 1rem;
-    background: #1964b7;
-    width: 6rem;
-    height: 2rem;
-    padding-top: .8rem;
-    border-radius: .3rem;
+.book__head {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
-.app__wrapper a {
+.book__para {
+    font-size: 1.2rem;
+}
+
+.book__para a {
+    color: #4176BC;
     text-decoration: none;
-    text-align: center;
-    margin: 2rem 0 0 .8rem;
-    color: #fff;
-    font-weight: 600;
 }
+
+
 
 /* Contact */
 .contact__container {
