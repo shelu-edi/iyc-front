@@ -275,10 +275,39 @@ h2 {
   }
 }
 
+@media screen and (max-width: 960px) {
+  .conference__card__title {
+    position: relative;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 0.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .conference__card__title {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .conference__wrapper,
   .international__initiatives__wrapper {
     grid-template-columns: 1fr 1fr;
     margin-right: 2rem;
+  }
+
+  .conference__card {
+    margin: top 1rem;
+  }
+
+  .conference__card__title {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .filter__wrapper {
+    flex-direction: column;
   }
 }

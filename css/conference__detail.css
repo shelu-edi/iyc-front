@@ -66,4 +66,8 @@
   .conference__container img {
     height: 50vh;
   }
+
+  .breadcrumb__wrapper {
+    width: 20rem;
+  }
 }

@@ -18,8 +18,7 @@
 .nav__container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   position: sticky;
   width: 100%;
   /* justify-content: space-between; */
