@@ -1,56 +1,56 @@
 * {
-@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
-    font-family: "Trebuchet MS", sans-serif;
-    scroll-behavior: smooth;
+  @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+  font-family: "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
 }
 
-html, body {
-    padding:0;
-    margin:0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
-
 
 /* Animations */
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes slideRight {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 27.2%;
-    }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 27.2%;
+  }
 }
 
 /* Hero */
 
 .hero__div {
-    display: flex;
+  display: flex;
 }
 
 .hero__head {
-    display: none;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 2rem;
-    color: #1964b7;
-    animation: fadeIn 1s;
+  display: none;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: #1964b7;
+  animation: fadeIn 1s;
 }
 
 .hero__info__container {
-    display: flex;
-    flex-direction: row;
-    margin: 0 0 1rem 0;
-    height: 82vh;
-    text-align: center;
-    background: url("../img/careers.jpg") no-repeat fixed;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 1rem 0;
+  height: 82vh;
+  text-align: center;
+  background: url("../img/careers.jpg") no-repeat fixed;
 }
 
 /*.hero__info__container img {*/
@@ -59,85 +59,98 @@ html, body {
 /*}*/
 
 .hero__info__container p {
-    /*background: rgba(25, 100, 183, .2);*/
-    text-align: center;
-    padding: 4rem;
-    font-size: 4rem;
-    margin-top: 3rem;
-    animation: fadeIn 2s;
-    color: #447BBF;
-    width: 100%;
-    align-self: center;
-    font-weight: 800;
+  /*background: rgba(25, 100, 183, .2);*/
+  text-align: center;
+  padding: 4rem;
+  font-size: 4rem;
+  margin-top: 3rem;
+  animation: fadeIn 2s;
+  color: #447bbf;
+  width: 100%;
+  align-self: center;
+  font-weight: 800;
 }
 
 /* Breadcrumb */
 .breadcrumb__wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 8rem;
-    margin: 2rem 0 1rem 3rem;
-    animation: fadeIn 2s;
+  display: flex;
+  justify-content: space-between;
+  width: 8rem;
+  margin: 2rem 0 1rem 3rem;
+  animation: fadeIn 2s;
 }
 
 .bread__link {
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .bread__link:hover {
-    text-decoration: none;
-    color: #1964b7;
+  text-decoration: none;
+  color: #1964b7;
 }
 
 .active {
-    color: #447BBF;
+  color: #447bbf;
 }
 
 /* Careers */
 .careers__head {
-    color: #447BBF;
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin: 2rem 0 0 3rem;
+  color: #447bbf;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 2rem 0 0 3rem;
 }
 
 .careers__info {
-    margin: 2rem 0 2rem 3rem;
-    font-size: 1.2rem;
+  margin: 2rem 0 2rem 3rem;
+  font-size: 1.2rem;
 }
 /* Volunteers */
 .vol__head {
-    margin: 1rem 0 1rem 3rem;
-    font-size: 1.8rem;
-    font-weight: 700;
+  margin: 1rem 0 1rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 .vol__info {
-    margin: 1rem 0 1rem 3rem;
-    font-size: 1rem;
-    font-weight: 600;
+  margin: 1rem 0 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /* Responsive */
-@media screen and (max-width: 960px)  {
-    .careers__info, .vol__info {
-        margin-right: 1rem;
-    }
+@media screen and (max-width: 960px) {
+  .careers__info,
+  .vol__info {
+    margin-right: 1rem;
+  }
 }
 
-@media screen and (max-width: 480px)  {
-    .careers__head {
-        font-size: 1.8rem;
-    }
+@media screen and (max-width: 480px) {
+  .careers__head {
+    font-size: 1.8rem;
+  }
 
-    .careers__info {
-        font-size: 1rem;
-    }
+  .careers__info {
+    font-size: 1rem;
+  }
 
-    .vol__head {
-        font-size: 1.5rem;
-    }
+  .vol__head {
+    font-size: 1.5rem;
+  }
+
+  .conference__link {
+    padding-right: 3rem;
+  }
+
+  .get__link {
+    padding-right: 3rem;
+  }
+
+  .footer__info {
+    margin-left: 5rem;
+  }
 }
