@@ -390,7 +390,7 @@
   }
 
   .mobile__menu__dropdown {
-    display: none;
+    opacity: 1;
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
