@@ -73,7 +73,7 @@ body {
 /* Get Invloved Top */
 .get__top__1 {
   margin: 1rem 0 2rem 3rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #4176bc;
 }
@@ -81,13 +81,18 @@ body {
 .get__top__2 {
   margin-left: 3rem;
   margin-bottom: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .get__top__3 {
   margin: 0 0 2rem 3rem;
   font-size: 1.2rem;
   color: #4176bc;
+}
+
+.get__top__3 li {
+  margin-bottom: 0.2rem;
+  font-weight: 700;
 }
 
 /* Address */
@@ -117,13 +122,13 @@ body {
 }
 
 .head__1 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin: 0 0 1rem 3rem;
 }
 
 .para__1 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0 2rem 2rem 3rem;
 }
 
