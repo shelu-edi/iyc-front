@@ -96,6 +96,8 @@ body {
 .sdg__list {
   margin-left: 3rem;
   margin-bottom: 1rem;
+  color: #4176bc;
+  font-weight: 600;
 }
 
 .sdg__list li {
