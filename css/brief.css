@@ -93,6 +93,15 @@ body {
   height: 100%;
 }
 
+.sdg__list {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sdg__list li {
+  margin-bottom: 0.5rem;
+}
+
 .mid__container {
   display: flex;
   flex-direction: column;
@@ -116,6 +125,7 @@ body {
 
 .vision__head {
   font-size: 1.5rem;
+  padding-bottom: 0.5rem;
   font-weight: 700;
   animation: fadeIn 3s;
 }
@@ -124,6 +134,7 @@ body {
   font-size: 1rem;
   animation: fadeIn 3.5s;
   font-weight: 600;
+  text-align: justify;
 }
 
 .mission__wrapper {
@@ -138,6 +149,7 @@ body {
 
 .mission__head {
   font-size: 1.5rem;
+  padding-bottom: 0.5rem;
   animation: fadeIn 4.5s;
   font-weight: 700;
 }
@@ -146,6 +158,7 @@ body {
   font-size: 1rem;
   animation: fadeIn 5s;
   font-weight: 600;
+  text-align: justify;
 }
 
 .charter__wrapper {
@@ -309,6 +322,21 @@ body {
 
   .mission__wrapper {
     background: #fff;
+  }
+
+  .vm__wrapper {
+    flex-direction: column;
+    width: 22rem;
+  }
+
+  .vision__head,
+  .mission__head {
+    font-size: 1rem;
+  }
+
+  .vision__wrapper p,
+  .mission__wrapper p {
+    font-size: 0.8rem;
   }
 
   .charter__head {

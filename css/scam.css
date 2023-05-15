@@ -1,61 +1,60 @@
 * {
-@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
-    font-family: "Trebuchet MS", sans-serif;
-    scroll-behavior: smooth;
+  @import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+  font-family: "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Animations */
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes slideRight {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 27.2%;
-    }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 27.2%;
+  }
 }
 
 /* Scam */
 .scam__head {
-    font-size: 2rem;
-    margin: 5rem 0 0 3rem;
-    font-weight: 800;
-    animation: fadeIn 1s;
+  font-size: 2rem;
+  margin: 5rem 0 0 3rem;
+  font-weight: 800;
+  animation: fadeIn 1s;
 }
 
 .scam__head__2 {
-    font-size: 1.5rem;
-    margin: 2rem 0 2rem 3rem;
-    color: #1964b7;
-    font-weight: 700;
-    animation: fadeIn 1.5s;
+  font-size: 1.5rem;
+  margin: 2rem 0 2rem 3rem;
+  color: #1964b7;
+  font-weight: 700;
+  animation: fadeIn 1.5s;
 }
 
 .scam__para__1 {
-    margin: 2rem 1rem 2rem 3rem;
-    font-size: 1rem;
-    animation: fadeIn 2s;
+  margin: 2rem 1rem 2rem 3rem;
+  font-size: 1.2rem;
+  animation: fadeIn 2s;
 }
 
 /* Scam List 1 */
 .scam__list__1 {
-    font-size: 1rem;
-    margin: 2rem 1rem 2rem 3rem;
-    animation: fadeIn 2.5s;
+  font-size: 1rem;
+  margin: 2rem 1rem 2rem 3rem;
+  animation: fadeIn 2.5s;
 }
 
 .scam__para__2 {
-    margin: 2rem 0 2rem 3rem;
-    font-size: 1rem;
-    font-weight: 800;
-    animation: fadeIn 2s;
+  margin: 2rem 0 2rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  animation: fadeIn 2s;
 }
-
