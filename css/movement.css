@@ -32,6 +32,7 @@ body {
 .hero__head {
   font-size: 4rem;
   color: #4176bc;
+  font-weight: 800;
   text-align: center;
   margin: 18rem 0 0 0;
   animation: fadeIn 1s;
@@ -72,10 +73,11 @@ body {
 
 /* Get Invloved Top */
 .get__top__1 {
-  margin: 1rem 0 2rem 3rem;
-  font-size: 2rem;
+  margin: 2rem 0 4rem 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  color: #4176bc;
+  /* color: #4176bc; */
+  text-align: center;
 }
 
 .get__top__2 {
@@ -85,7 +87,7 @@ body {
 }
 
 .get__top__3 {
-  margin: 0 0 2rem 3rem;
+  margin: 0 0 4rem 3rem;
   font-size: 1.2rem;
   color: #4176bc;
 }
@@ -101,7 +103,7 @@ body {
   flex-direction: column;
   text-align: center;
   color: #4176bc;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .address__head {
@@ -124,7 +126,7 @@ body {
 .head__1 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin: 0 0 1rem 3rem;
+  margin: 0 0 2rem 3rem;
 }
 
 .para__1 {
@@ -151,7 +153,7 @@ body {
 }
 
 .donate__btn {
-  margin: 0 0 2rem 3rem;
+  margin: 0 0 3rem 3rem;
   background: #4176bc;
   box-shadow: rgba(65, 118, 188, 0.12) 0px 1px 3px,
     rgba(65, 118, 188, 0.24) 0px 1px 2px;
